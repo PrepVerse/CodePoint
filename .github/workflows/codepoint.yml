@@ -1,0 +1,19 @@
+name: codepoint 
+on:
+  push:
+    branches:
+      - master
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-minify-plugin 
+      - run: pip install mkdocs-redirects 
+      - run: mkdocs gh-deploy --force
