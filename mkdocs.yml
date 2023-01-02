@@ -93,6 +93,7 @@ extra:
     enabled: true
     # defaults to utterances unless replaced with mode: giscus
     mode: utterances
+    # type: issues
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/AkashSingh3031/
@@ -102,6 +103,7 @@ extra:
 extra_css:
   - css/katex.css
   - css/custom.css
+  - css/childpages_card_grid.css
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css
 
 extra_javascript:
@@ -138,6 +140,7 @@ markdown_extensions:
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -153,7 +156,7 @@ nav:
   - Home: 
     - Home: index.md
   - CodePoint:
-    - Preface: preface.md
+    # - Preface: preface.md
     - Code:
       - Striver A2Z DSA Sheet Solution:
         - Step1 - Learn the basics: 
@@ -209,9 +212,24 @@ nav:
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Bubble-Sort.md
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Insertion-Sort.md
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Quick-Sort.md
-  - Blog:
-    - blog/index.md
-    - Python:
-      - NumPy:
-        - blog/posts/NumPy.md
-  - About: about/about.md
+  # - Free Cources:
+  #   - ------>DSA<------:
+  #     - DSA:
+  #       - Striver Series:
+  #         - Free_Courses/Striver_Series/DSA.md
+  #       - Love Babbar Series:
+  #         - Free_Courses/Love_Babbar_Series/DSA.md
+  #       - Apna College Series:
+  #         - Free_Courses/Apna_College_Series/DSA.md
+  #   - ------>Theory<------:
+  #     - Theory:
+  #       - Love Babbar Series:
+  #         - Free_Courses/Love_Babbar_Series/DSA.md
+  #       - Apna College Series:
+  #         - Free_Courses/Apna_College_Series/DSA.md
+  # - Blog:
+  #   - blog/index.md
+  #   - Python:
+  #     - NumPy:
+  #       - blog/posts/NumPy.md
+  - About Me: about/about.md
