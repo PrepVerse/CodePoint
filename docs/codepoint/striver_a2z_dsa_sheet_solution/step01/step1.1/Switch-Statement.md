@@ -6,7 +6,7 @@ graph LR
   D --> E{Case n};
   C --> |Yes| F[Statemet Group 1];
   D --> |Yes| G[Statemet Group 2];
-  E --> |Default| H[Statemet Group 3];
+  E --> |Default| H[Statemet Group n];
   F --> |Break Statement| I[End];
   G --> |Break Statement| I[End];
   H --> |Break Statement| I[End];

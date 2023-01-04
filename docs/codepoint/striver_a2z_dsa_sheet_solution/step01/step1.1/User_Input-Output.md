@@ -2,7 +2,7 @@
 graph LR
   A(Start) --> B[Declare Variables];
   B --> C[Read variables];
-  C --> D[Display variables];
+  C --> D[Display Result];
   D --> E(End);
 ```
 
