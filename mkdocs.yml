@@ -59,7 +59,7 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: fontawesome/solid/code
+    logo: fontawesome/solid/laptop-code
     repo: fontawesome/brands/github
 
 # Plugins
@@ -160,7 +160,7 @@ nav:
     - Code:
       - Striver A2Z DSA Sheet Solution:
         - Step1 - Learn the basics: 
-          - Step1.1 - C++: 
+          - Step1.1 - Things to Know: 
             - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output.md
             - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Data-Types.md
             - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/If-Else-Statements.md
@@ -212,8 +212,12 @@ nav:
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Bubble-Sort.md
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Insertion-Sort.md
               - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Quick-Sort.md
+    - Theory:
+      - Striver SDE Core Sheet:
+        - Operating System: 
+          - codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
   # - Free Cources:
-  #   - ------>DSA<------:
+  #   - ------> DSA <------:
   #     - DSA:
   #       - Striver Series:
   #         - Free_Courses/Striver_Series/DSA.md
@@ -221,7 +225,7 @@ nav:
   #         - Free_Courses/Love_Babbar_Series/DSA.md
   #       - Apna College Series:
   #         - Free_Courses/Apna_College_Series/DSA.md
-  #   - ------>Theory<------:
+  #   - ------> Theory <------:
   #     - Theory:
   #       - Love Babbar Series:
   #         - Free_Courses/Love_Babbar_Series/DSA.md

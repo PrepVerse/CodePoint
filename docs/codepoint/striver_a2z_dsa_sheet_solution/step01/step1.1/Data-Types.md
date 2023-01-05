@@ -23,11 +23,11 @@
 
 | Type Name    | Bytes | Range of Values |
 |--------------|-------|-----------------|
-|char          | 1     | -128 to 127 <br> or 0 255 |
+|char          | 1     | -128 to 127 <br> or 0 to 255 |
 |unsigned char | 1     | 0 to 255 |
 |signed char   | 1     | -128 to 127 |
 
-!!! example
+!!! example "C++ Example"
     === "C++"
         !!! tip "Data_Types.cpp"
             ```cpp linenums="1" hl_lines="5-6 8-9 11-12 14-16 18-20 22-24 28-30 34-36"
@@ -74,6 +74,55 @@
         ??? success "Output"
             ```
             Akash Singh
+            Print normal string: 
+            s1: Akash, and s2: Singh
+
+            My Name is Akash Singh.
+            Print getline string: 
+            str: My Name is Akash Singh.
+            ```
+
+
+!!! example "Python Example"
+    === "Python"
+        !!! tip "Data_Types.py"
+            ```py linenums="1" hl_lines="1-2 4-5 7-8 10-12 14-16 18-22 24-27 29-31"
+            # int
+            i = 10;
+
+            # long
+            l = 1005;
+
+            # long long
+            ll = 10000005;
+
+            # float
+            f = 10.5;
+            fi = 10;
+
+            # double
+            d = 1005.5;
+            di = 1005;
+
+            # string
+            s1, s2 = input(), input();
+            print("Print normal string: ");
+            print("s1:", s1, ", and s2:", s2);
+            print()
+
+            # getline
+            str = input();
+            print("Print getline string: ")
+            print("str:", str)
+
+            # char
+            ch = 'A';
+            s = "A";
+            ```
+        ??? success "Output"
+            ```
+            Akash 
+            Singh
             Print normal string: 
             s1: Akash, and s2: Singh
 
