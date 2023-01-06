@@ -51,7 +51,7 @@ as the main headline.
         </p>
         <p>
         <span> 
-        <b>{{ page.meta.author }}</b> · <a href="https://github.com/{{ page.meta.author_gh_user }}" target="_blank">@{{ page.meta.author_gh_user }}</a>
+        <b>{{ page.meta.authors }}</b> · <a href="https://github.com/{{ page.meta.author_gh_user }}" target="_blank">@{{ page.meta.author_gh_user }}</a>
         </span>
         <span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2" viewBox="0 0 16 16">
@@ -59,8 +59,7 @@ as the main headline.
                 <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
             </svg> {{ page.meta.publish_date }} · 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                <path d="M5.75.75A.75.75 0 016.5 0h3a.75.75 0 010 1.5h-.75v1l-.001.041a6.718 6.718 0 013.464 1.435l.007-.006.75-.75a.75.75 0 111.06 1.06l-.75.75-.006.007a6.75 6.75 0 11-10.548 0L2.72 5.03l-.75-.75a.75.75 0 011.06-1.06l.75.75.007.006A6.718 6.718 0 017.25 2.541a.756.756 0 010-.041v-1H6.5a.75.75 0 01-.75-.75zM8 14.5A5.25 5.25 0 108 4a5.25 5.25 0 000 10.5zm.389-6.7l1.33-1.33a.75.75 0 111.061 1.06L9.45 8.861A1.502 1.502 0 018 10.75a1.5 1.5 0 11.389-2.95z"/>
             </svg> {{ page.meta.read_time }} read
         </span>
         </p>
@@ -68,7 +67,113 @@ as the main headline.
     {% endif %}
 
     {{ page.content }}
+
     
+    <!-- <style>
+    .md-source-file {
+        margin: 1em 0;
+    }
+    [dir=ltr] .md-source-file__fact {
+        margin-right: 0.6rem;
+    }
+    .md-source-file__fact {
+        align-items: center;
+        color: var(--md-default-fg-color--light);
+        display: inline-flex;
+        font-size: .68rem;
+        gap: 0.3rem;
+    }
+    .md-source-file__fact svg {
+        width: 0.9rem;
+    }
+    .md-source-file__fact .md-icon {
+        flex-shrink: 0;
+        margin-bottom: 0.05rem;
+    }
+    .git-revision-date-localized-plugin-iso_date {
+        display: none;
+    }
+    [dir=ltr] .md-source-file__fact .md-author {
+        float: left;
+    }
+    .md-typeset a.md-author {
+        transform: scale(1);
+    }
+    .md-source-file__fact .md-author {
+        margin-right: 0.2rem;
+    }
+    .md-typeset .md-author {
+        display: block;
+        flex-shrink: 0;
+        height: 1.6rem;
+        overflow: hidden;
+        position: relative;
+        transition: color 125ms,transform 125ms;
+        width: 1.6rem;
+    }
+    .md-typeset a, .md-typeset a:before {
+        transition: color 125ms;
+    }
+    .md-typeset a {
+        color: var(--md-typeset-a-color);
+        word-break: break-word;
+    }
+    .md-typeset a.md-author img {
+        filter: grayscale(100%) opacity(75%);
+        transition: filter 125ms;
+    }
+    .md-typeset .md-author img {
+        border-radius: 100%;
+        display: block;
+    }
+    .md-typeset img, .md-typeset svg, .md-typeset video {
+        height: auto;
+        max-width: 100%;
+    }
+    img {
+        border-style: none;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    </style>
+    {% if page and page.meta and page.meta.author_gh_user %}
+    <aside class="md-source-file"> 
+        <span class="md-source-file__fact"> 
+            <span class="md-icon" title="Last update"> 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path>
+                </svg> 
+            </span> 
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago">
+                <span class="timeago" datetime="2022-12-31T14:02:02+00:00" locale="en" timeago-id="65">5 days ago</span>
+            </span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">{{ page.meta.edit_date }}</span> 
+        </span> 
+        <span class="md-source-file__fact"> <span class="md-icon" title="Created"> 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path>
+            </svg> 
+        </span> 
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago">
+            <span class="timeago" datetime="2022-09-11T17:25:40+00:00" locale="en" timeago-id="66">3 months ago</span>
+        </span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">{{ page.meta.publish_date }}</span> 
+        </span> 
+        <span class="md-source-file__fact"> 
+            <span class="md-icon" title="Contributors"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path>
+            </svg> 
+        </span> 
+        <span>GitHub</span> 
+        <nav> 
+            <a href="https://github.com/AkashSingh3031" class="md-author" title="@AkashSingh3031"> 
+                <img src="https://avatars.githubusercontent.com/{{ page.meta.author_gh_user }}" alt="AkashSingh3031"> 
+            </a> 
+        </nav> 
+        </span> 
+    </aside>
+    {% endif %} -->
+
     <!-- Comment system -->
     
     <!-- Last update of source file -->

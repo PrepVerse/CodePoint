@@ -16,4 +16,8 @@ jobs:
       - run: pip install mkdocs-material==8.5.10
       - run: pip install mkdocs-minify-plugin 
       - run: pip install mkdocs-redirects 
+      - run: pip install mkdocs-git-revision-date-localized-plugind
+      - run: pip install mkdocs-git-authors-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
+      - run: pip install lxml
       - run: mkdocs gh-deploy --force

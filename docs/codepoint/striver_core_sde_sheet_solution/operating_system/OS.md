@@ -1,6 +1,6 @@
 ---
 title: Operating System
-author: Akash Singh
+authors: Akash Singh
 author_gh_user: AkashSingh3031
 read_time: 2 hours
 publish_date: January 5, 2023
