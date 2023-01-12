@@ -125,6 +125,9 @@ extra_javascript:
   - js/katex.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js
+  - js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 
 markdown_extensions:
@@ -177,94 +180,94 @@ nav:
         - Striver A2Z DSA Sheet Solution:
           - Step1 - Learn the basics: 
             - Step1.1 - Things to Know: 
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Data-Types.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/If-Else-Statements.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Switch-Statement.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/What-are-Arrays-Strings.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/For-Loops.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/While-Loops.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Data-Types.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/If-Else-Statements.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Switch-Statement.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/What-are-Arrays-Strings.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/For-Loops.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/While-Loops.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity.md
             - Step1.2 - Logical Thinking:
               - Pattern Problems: 
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-4.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-5.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-6.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-7.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-8.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-9.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-10.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-11.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-12.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-13.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-14.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-15.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-16.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-17.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-18.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-19.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-20.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-4.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-5.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-6.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-7.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-8.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-9.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-10.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-11.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-12.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-13.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-14.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-15.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-16.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-17.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-18.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-19.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-20.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
             - Step1.3 - C++ STL:
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL.md
             - Step1.4 - Basic Maths:
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Count-Digits.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Reverse-a-Number.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-Palindrome.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/GCD-HCF.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Armstrong-Numbers.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Print-all-Divisors.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-for-Prime.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Count-Digits.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Reverse-a-Number.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-Palindrome.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/GCD-and-LCM.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Armstrong-Numbers.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Print-all-Divisors.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-for-Prime.md
             - Step1.5 - Basic Recursion:
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-Something-N-times.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-Name-N-times.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-1-to-N.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-N-to-1.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Sum-of-first-N-numbers.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Factorial-of-N-numbers.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Reverse-an-array.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Check-if-a-string-is-palindrome-or-not.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Fibonacci-Number.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Undestand-Recursion.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-Name-N-times.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-1-to-N.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-N-to-1.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Sum-of-first-N-numbers.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Factorial-of-N-numbers.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Reverse-an-array.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Check-if-a-string-is-palindrome-or-not.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Fibonacci-Number.md
             - Step1.6 - Basic Hashing:
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Counting-Frequencies-of-Array-Elements.md
-              - codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Find-the-highest_lowest-frequency-element.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Counting-Frequencies-of-Array-Elements.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Find-the-highest_lowest-frequency-element.md
           - Step2 - Sorting Tech.: 
             - Step2.1 - Sorting-I: 
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Selection-Sort.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Bubble-Sort.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Insertion-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Selection-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Bubble-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Insertion-Sort.md
             - Step2.2 - Sorting-II: 
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Merge-Sort.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Bubble-Sort.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Insertion-Sort.md
-                - codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Quick-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Merge-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Bubble-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Insertion-Sort.md
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Quick-Sort.md
       - Theory:
         - Striver SDE Core Sheet:
           - Operating System: 
-            - codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
+            - learning_resources/codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
   # - Free Cources:
   #   - ------> DSA <------:
   #     - DSA:
   #       - Striver Series:
-  #         - Free_Courses/Striver_Series/DSA.md
+  #         - learning_resources/Free_Courses/Striver_Series/DSA.md
   #       - Love Babbar Series:
-  #         - Free_Courses/Love_Babbar_Series/DSA.md
+  #         - learning_resources/Free_Courses/Love_Babbar_Series/DSA.md
   #       - Apna College Series:
-  #         - Free_Courses/Apna_College_Series/DSA.md
+  #         - learning_resources/Free_Courses/Apna_College_Series/DSA.md
   #   - ------> Theory <------:
   #     - Theory:
   #       - Love Babbar Series:
-  #         - Free_Courses/Love_Babbar_Series/DSA.md
+  #         - learning_resources/Free_Courses/Love_Babbar_Series/DSA.md
   #       - Apna College Series:
-  #         - Free_Courses/Apna_College_Series/DSA.md
+  #         - learning_resources/Free_Courses/Apna_College_Series/DSA.md
   # - Blog:
   #   - blog/index.md
   #   - Python:
   #     - NumPy:
-  #       - blog/posts/NumPy.md
+  #       - learning_resources/blog/posts/NumPy.md
   - About Me: about/about.md
