@@ -1,4 +1,16 @@
 !!! example "Example"
+    !!! question "Pattern 7"
+        <h1 align="center">$N = 5$</h1>
+        
+        $$\Large
+        \begin{align}
+                &*\\
+               &***\\  
+              &*****\\
+             &*******\\
+            &*********
+        \end{align}
+        $$
     === "C++"
         ???+ tip "printTriangle.cpp"
             ``` c++ linenums="1"
@@ -10,7 +22,7 @@
                     for(int k=0; k<(n-i); k++) {
                         cout << " ";
                     }
-                    for(int j=0; j<2*i-1; j++) {
+                    for(int col=0; col<2*row-1; col++) {
                         cout << "*";
                     }
                     cout << endl;

@@ -18,12 +18,17 @@ theme:
   custom_dir: material/overrides
   language: en
   features:
-    # - announce.dismiss
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
+    - content.code.copy
+    # - content.code.select
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
+    - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
@@ -111,9 +116,11 @@ extra:
     # type: issues
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/AkashSingh3031/
+      link: https://github.com/AkashSingh3031
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/akashsingh3031
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/akashsingh3031
 
 extra_css:
   - css/katex.css
@@ -248,8 +255,7 @@ nav:
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Quick-Sort.md
       - Theory:
         - Striver SDE Core Sheet:
-          - Operating System: 
-            - learning_resources/codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
+          - learning_resources/codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
   # - Free Cources:
   #   - ------> DSA <------:
   #     - DSA:

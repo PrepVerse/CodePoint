@@ -1,4 +1,21 @@
-{% extends "base.html" %}
+{% extends "base.html" %} 
+
+{% block announce %} 
+    For updates follow <strong>@akashsingh3031</strong> on
+    <a rel="me" href="https://www.linkedin.com/in/akashsingh3031">
+    <span class="twemoji linkedin">
+        {% include ".icons/fontawesome/brands/linkedin.svg" %}
+    </span>
+    <strong>LinkedIn</strong>
+    </a>
+    and
+    <a href="https://twitter.com/akashsingh3031">
+    <span class="twemoji twitter">
+        {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+    </a>
+{% endblock %}
 
 <!-- Custom Head -->
 {% block extrahead %}
@@ -25,13 +42,13 @@ striptags %} {% endif %}
 
 <!-- Edit button -->
 {% if page.edit_url %}
-    <a
-        href="{{ page.edit_url }}"
-        title="{{ lang.t('edit.link.title') }}"
-        class="md-content__button md-icon"
-    >
-        {% include ".icons/material/file-edit-outline.svg" %}
-    </a>
+<a
+  href="{{ page.edit_url }}"
+  title="{{ lang.t('edit.link.title') }}"
+  class="md-content__button md-icon"
+>
+  {% include ".icons/material/file-edit-outline.svg" %}
+</a>
 {% endif %}
 
 <!--
@@ -40,36 +57,63 @@ doesn't, the page title (or respectively site name) is used
 as the main headline.
 -->
 {% if not "\x3ch1" in page.content %}
-    <h1>{{ page.title | d(config.site_name, true)}}</h1>
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
 
 <!-- Markdown content -->
-    {% if page and page.meta and page.meta.author_gh_user %}
-    <aside class="mdx-author">
-        <p>
-        <img src="https://avatars.githubusercontent.com/{{ page.meta.author_gh_user }}" alt="@{{ page.meta.author_gh_user }}">
-        </p>
-        <p>
-        <span> 
-        <b>{{ page.meta.authors }}</b> · <a href="https://github.com/{{ page.meta.author_gh_user }}" target="_blank">@{{ page.meta.author_gh_user }}</a>
-        </span>
-        <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2" viewBox="0 0 16 16">
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
-                <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
-            </svg> {{ page.meta.publish_date }} · 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                <path d="M5.75.75A.75.75 0 016.5 0h3a.75.75 0 010 1.5h-.75v1l-.001.041a6.718 6.718 0 013.464 1.435l.007-.006.75-.75a.75.75 0 111.06 1.06l-.75.75-.006.007a6.75 6.75 0 11-10.548 0L2.72 5.03l-.75-.75a.75.75 0 011.06-1.06l.75.75.007.006A6.718 6.718 0 017.25 2.541a.756.756 0 010-.041v-1H6.5a.75.75 0 01-.75-.75zM8 14.5A5.25 5.25 0 108 4a5.25 5.25 0 000 10.5zm.389-6.7l1.33-1.33a.75.75 0 111.061 1.06L9.45 8.861A1.502 1.502 0 018 10.75a1.5 1.5 0 11.389-2.95z"/>
-            </svg> {{ page.meta.read_time }} read
-        </span>
-        </p>
-    </aside>
-    {% endif %}
+{% if page and page.meta and page.meta.author_gh_user %}
+<aside class="mdx-author">
+  <p>
+    <img
+      src="https://avatars.githubusercontent.com/{{ page.meta.author_gh_user }}"
+      alt="@{{ page.meta.author_gh_user }}"
+    />
+  </p>
+  <p>
+    <span>
+      <b>{{ page.meta.authors }}</b> ·
+      <a
+        href="https://github.com/{{ page.meta.author_gh_user }}"
+        target="_blank"
+        >@{{ page.meta.author_gh_user }}</a
+      >
+    </span>
+    <span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-calendar2"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"
+        />
+        <path
+          d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"
+        />
+      </svg>
+      {{ page.meta.publish_date }} ·
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-clock"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M5.75.75A.75.75 0 016.5 0h3a.75.75 0 010 1.5h-.75v1l-.001.041a6.718 6.718 0 013.464 1.435l.007-.006.75-.75a.75.75 0 111.06 1.06l-.75.75-.006.007a6.75 6.75 0 11-10.548 0L2.72 5.03l-.75-.75a.75.75 0 011.06-1.06l.75.75.007.006A6.718 6.718 0 017.25 2.541a.756.756 0 010-.041v-1H6.5a.75.75 0 01-.75-.75zM8 14.5A5.25 5.25 0 108 4a5.25 5.25 0 000 10.5zm.389-6.7l1.33-1.33a.75.75 0 111.061 1.06L9.45 8.861A1.502 1.502 0 018 10.75a1.5 1.5 0 11.389-2.95z"
+        />
+      </svg>
+      {{ page.meta.read_time }} read
+    </span>
+  </p>
+</aside>
+{% endif %} {{ page.content }}
 
-    {{ page.content }}
-
-    
-    <!-- <style>
+<!-- <style>
     .md-source-file {
         margin: 1em 0;
     }
@@ -174,14 +218,9 @@ as the main headline.
     </aside>
     {% endif %} -->
 
-    <!-- Comment system -->
-    
-    <!-- Last update of source file -->
-    {% if page and page.meta %}
-        {% if page.meta.git_revision_date_localized or
-            page.meta.revision_date
-        %}
-            {% include "partials/source-file.html" %}
-        {% endif %}
-    {% endif %}
-{% endblock %}
+<!-- Comment system -->
+
+<!-- Last update of source file -->
+{% if page and page.meta %} {% if page.meta.git_revision_date_localized or
+page.meta.revision_date %} {% include "partials/source-file.html" %} {% endif %}
+{% endif %} {% endblock %}

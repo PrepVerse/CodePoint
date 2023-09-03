@@ -1,4 +1,20 @@
 !!! example "Example"
+    !!! question "Pattern 20"
+        <h1 align="center">$N = 5$</h1>
+
+        $$\Large
+        \begin{align}
+            &\ast\ \ \ \ \ \ \ \  \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ast \\
+            &\ast\ast\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ast\ast \\
+            &\ast\ast\ast\ \ \ \ \ \ \ \ \ \ \ \ \ast\ast\ast \\
+            &\ast\ast\ast\ast\ \ \ \ \ \ \ast\ast\ast\ast \\
+            &\ast\ast\ast\ast\ast\ast\ast\ast\ast\ast \\
+            &\ast\ast\ast\ast\ \ \ \ \ \ \ast\ast\ast\ast \\
+            &\ast\ast\ast\ \ \ \ \ \ \ \ \ \ \ \ \ast\ast\ast \\
+            &\ast\ast\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ast\ast \\
+            &\ast\ \ \ \ \ \ \ \  \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ast \\
+        \end{align}
+        $$
     === "C++"
         ???+ tip "printTriangle.cpp"
             ``` c++ linenums="1"

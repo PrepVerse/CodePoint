@@ -1,4 +1,16 @@
 !!! example "Example"
+    !!! question "Pattern 1"
+        <h1 align="center">$N = 5$</h1>
+
+        $$\Large
+        \begin{align}
+        * * * * *\\
+        * * * * *\\
+        * * * * *\\
+        * * * * *\\
+        * * * * *
+        \end{align}
+        $$
     === "C++"
         ???+ tip "printSquare.cpp"
             ``` c++ linenums="1"

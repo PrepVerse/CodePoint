@@ -1,4 +1,16 @@
 !!! example "Example"
+    !!! question "Pattern 12"
+        <h1 align="center">$N = 5$</h1>
+        
+        $$\Large
+        \begin{align}
+            &1 \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad 1 \\
+            &1 \quad 2 \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad 2 \quad 1 \\
+            &1 \quad 2 \quad 3 \quad \quad \quad \quad \quad \quad \quad 3 \quad 2 \quad 1 \\
+            &1 \quad 2 \quad 3 \quad 4 \quad \quad \quad \quad 4 \quad 3 \quad 2 \quad 1 \\
+            &1 \quad 2 \quad 3 \quad 4 \quad 5 \quad 5 \quad 4 \quad 3 \quad 2 \quad 1 \\
+        \end{align}
+        $$
     === "C++"
         ???+ tip "printTriangle.cpp"
             ``` c++ linenums="1"

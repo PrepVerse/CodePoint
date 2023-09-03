@@ -1,4 +1,16 @@
 !!! example "Example"
+    !!! question "Pattern 11"
+        <h1 align="center">$N = 5$</h1>
+        
+        $$\Large
+        \begin{align}
+        &1\\
+        &0\; 1\\
+        &1\; 0\; 1\\
+        &0\; 1\; 0\; 1\\
+        &1\; 0\; 1\; 0\; 1
+        \end{align}
+        $$
     === "C++"
         ???+ tip "printTriangle.cpp"
             ``` c++ linenums="1"
