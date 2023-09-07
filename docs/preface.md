@@ -47,8 +47,8 @@
 
 ???+ Danger "Striver Series Solution"
     ??? tip "Striver A2Z DSA Sheet Solution : <code class="green">Code</code>"
-        ??? note "Step 1: Learn the basics"
-            ??? Example "<code class="yellow">✔️</code> Step 1.1: Things to Know"
+        ??? note "<code class="yellow">✔️</code> Step 1: Learn the basics"
+            ??? Example "Step 1.1: Things to Know"
                 !!! pied-piper ""
                     <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output/"><code class="green">User Input-Output</code></a> <code class="gray">C++</code> <code class="gray">Python</code>
                 !!! pied-piper ""
@@ -67,7 +67,7 @@
                     <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions/"><code class="green">Functions</code></a> <code class="gray">C++</code>
                 !!! pied-piper ""
                     <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity/"><code class="green">Time Complexity</code></a> <code class="gray">C++</code>
-            ??? Example "<code class="yellow">✔️</code> Step 1.2: Build-up Logical Thinking"
+            ??? Example "Step 1.2: Build-up Logical Thinking"
                 ??? tip "Pattern Problems"
                     !!! pied-piper ""
                         <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1/"><code class="green">Pattern-1</code></a> <code class="gray">C++</code>
@@ -116,7 +116,7 @@
             ??? Example "Step 1.3: C++ STL"
                 !!! pied-piper ""
                     <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL/"><code class="green">C++ STL</code></a> <code class="gray">C++</code>
-            ??? Example "<code class="yellow">✔️</code> Step 1.4: Know Basic Maths"
+            ??? Example "Step 1.4: Know Basic Maths"
                 !!! pied-piper ""
                     <a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Count-Digits/"><code class="green">Count Digits</code></a> <code class="gray">C++</code>
                 !!! pied-piper ""

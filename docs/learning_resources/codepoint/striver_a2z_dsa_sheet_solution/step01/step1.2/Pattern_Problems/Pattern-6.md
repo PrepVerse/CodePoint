@@ -1,3 +1,5 @@
+# 6. Reverse Triangle Digit Pattern
+
 !!! example "Example"
     !!! question "Pattern 6"
         <h1 align="center">$N = 5$</h1>

@@ -1,3 +1,5 @@
+# 21. Hollow Square Star Pattern
+
 !!! example "Example"
     !!! question "Pattern 21"
         <h1 align="center">$N = 5$</h1>

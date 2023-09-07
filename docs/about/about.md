@@ -556,9 +556,7 @@
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/Most_used_languages_❤-ff0000?style=plastic&logo=file-code&logoColor=cyan" width="300px" height="40px" /></a></summary>
     <table align="center" border="3">
       <th><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" align="center"> <img width="100%" height="50%" src= "https://github-readme-stats.vercel.app/api/top-langs/?username=AkashSingh3031&layout=pie&langs_count=20&theme=radical&hide_border=true&custom_title=Most%20Used%20Languages"></a></th>
-      <th><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" align="center"><img width="100%" height="100%" src= "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AkashSingh3031&theme=radical" alt=""></a></th>
-      <tr>
-      <th><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" align="center"><img width="100%" height="100%" src= "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AkashSingh3031&theme=radical"></a></th>
+      <th><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" align="center"><img width="100%" height="100%" src= "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AkashSingh3031&theme=radical" alt=""></a><br><a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" align="center"><img width="100%" height="100%" src= "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AkashSingh3031&theme=radical"></a></th>
     </table>
 </details>
 

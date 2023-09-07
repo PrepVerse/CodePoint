@@ -1,10 +1,43 @@
 ``` mermaid
 graph LR
-  A(Start) --> B[Expression];
-  B --> |True| C[statement in if branch];
-  B --> |False| D[statement in else branch];
-  C --> E[End];
-  D --> E(End);
+
+  A(Start) --> B[Initialize Variables];
+  B --> C{Condition};
+  C -- Yes --> D[Execute If Block];
+  C -- No --> E[Execute Else Block];
+  D --> F[Display Result];
+  E --> F;
+  F --> G(End);
+
+  style A fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:yellow
+  style G fill:#00f,color:white,font-weight:bold,stroke-width:2px,stroke:yellow
+
+  subgraph Initialize_Variables
+    B[Variables]
+  end
+
+  subgraph Condition
+    C{Condition}
+  end
+
+  subgraph Execute_If_Block
+    D[Execute If Block]
+  end
+
+  subgraph Execute_Else_Block
+    E[Execute Else Block]
+  end
+
+  subgraph Display_Result
+    F[Display Result]
+  end
+
+  style Initialize_Variables fill:##FC33FF,stroke:#FF6E40,stroke-width:5px;
+  style Condition fill:##FC33FF,stroke:#045F7F,stroke-width:5px;
+  style Execute_If_Block fill:##FC33FF,stroke:#3A9D23,stroke-width:5px;
+  style Execute_Else_Block fill:##FC33FF,stroke:#4D5BFF,stroke-width:5px;
+  style Display_Result fill:##FC33FF,stroke:#FF406A,stroke-width:5px;
+
 ```
 
 

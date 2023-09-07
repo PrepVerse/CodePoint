@@ -1,3 +1,5 @@
+# 19. Hollow Diamond Star Pattern
+
 !!! example "Example"
     !!! question "Pattern 19"
         <h1 align="center">$N = 5$</h1>

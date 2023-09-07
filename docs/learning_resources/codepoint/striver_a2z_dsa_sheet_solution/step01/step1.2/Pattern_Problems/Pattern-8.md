@@ -1,3 +1,5 @@
+# 8. Reverse Triangle Star Pattern
+
 !!! example "Example"
     !!! question "Pattern 8"
         <h1 align="center">$N = 5$</h1>

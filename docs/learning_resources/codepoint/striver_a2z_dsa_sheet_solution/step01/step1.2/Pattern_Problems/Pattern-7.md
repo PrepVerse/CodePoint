@@ -1,14 +1,16 @@
+# 7. Triangle Star Pattern
+
 !!! example "Example"
     !!! question "Pattern 7"
         <h1 align="center">$N = 5$</h1>
         
         $$\Large
         \begin{align}
-                &*\\
-               &***\\  
-              &*****\\
-             &*******\\
-            &*********
+            &\phantom{****}*\\
+            &\phantom{***}***\\
+            &\phantom{**}*****\\
+            &\phantom{*}*******\\
+            &\phantom{}*********\\
         \end{align}
         $$
     === "C++"

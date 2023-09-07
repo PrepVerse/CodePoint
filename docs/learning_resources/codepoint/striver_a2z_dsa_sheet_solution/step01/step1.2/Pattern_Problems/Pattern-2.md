@@ -1,3 +1,5 @@
+# 2. Triangle Star Pattern
+
 !!! example "Example"
     !!! question "Pattern 2"
         <h1 align="center">$N = 5$</h1>

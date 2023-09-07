@@ -1,3 +1,5 @@
+# 4. Triangle Digit Pattern
+
 !!! example "Example"
     !!! question "Pattern 4"
         <h1 align="center">$N = 5$</h1>

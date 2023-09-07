@@ -1,3 +1,5 @@
+# 17. Triangle Character Pattern
+
 !!! example "Example"
     !!! question "Pattern 17"
         <h1 align="center">$N = 5$</h1>
