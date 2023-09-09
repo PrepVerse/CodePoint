@@ -1,3 +1,7 @@
+---
+icon: material/triangle-down
+---
+
 # 15. Reverse Triangle Character Pattern
 
 !!! example "Example"

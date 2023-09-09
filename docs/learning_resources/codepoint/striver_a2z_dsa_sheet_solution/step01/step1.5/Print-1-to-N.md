@@ -1,3 +1,7 @@
+---
+icon: material/numeric-3-box-multiple
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "print_1toN.cpp"

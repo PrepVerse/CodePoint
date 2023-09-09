@@ -3,7 +3,7 @@ site_name: CodePoint
 site_description: >-
   Expert Sheet Solutions in C++, Java, and Python.
 site_author: Akash Singh
-site_url: https://prepverse.github.io/CodePoint/
+site_url: https://prepverse.github.io/CodePoint
 
 # Repository
 repo_name: CodePoint
@@ -31,6 +31,8 @@ theme:
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
+    # - navigation.instant.prefetch
+    - navigation.path
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -106,27 +108,37 @@ plugins:
 
 # Customization
 extra:
-  # alternate:
-  #   - name: English
-  #     link: /en/ 
-  #     lang: en
-  #   - name: Hindi
-  #     link: /hi/ 
-  #     lang: hi
   analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
     provider: google
-    property: UA-117404761-3
+    property: G-JF4ZWKWVGC
   comments:
     enabled: true
     # defaults to utterances unless replaced with mode: giscus
-    mode: utterances
+    mode: giscus
+    # mode: utterances
     # type: issues
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/AkashSingh3031
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/akashsingh3031
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/akash.singh3031
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/akashsingh3031
 
 extra_css:
@@ -136,6 +148,7 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css
 
 extra_javascript:
+  - js/feedback.js
   - js/katex.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js
@@ -164,12 +177,13 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
+      linenums_style: pymdownx.table
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: akashsingh3031
+      repo: CodePoint
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets
@@ -192,8 +206,8 @@ nav:
     - Striver Series:
       - DSA:
         - Striver A2Z DSA Sheet:
-          - 1 - Learn the basics: 
-            - 1.1 - Things to Know: 
+          - 1. Learn the basics: 
+            - 1.1. Things to Know: 
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Data-Types.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/If-Else-Statements.md
@@ -203,7 +217,7 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/While-Loops.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity.md
-            - 1.2 - Pattern Problems:
+            - 1.2. Pattern Problems:
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
@@ -226,9 +240,9 @@ nav:
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-20.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
-            - 1.3 - C++ STL:
+            - 1.3. C++ STL:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL.md
-            - 1.4 - Basic Maths:
+            - 1.4. Basic Maths:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Count-Digits.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Reverse-a-Number.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-Palindrome.md
@@ -236,7 +250,7 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Armstrong-Numbers.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Print-all-Divisors.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-for-Prime.md
-            - 1.5 - Basic Recursion:
+            - 1.5. Basic Recursion:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Undestand-Recursion.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-Name-N-times.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-1-to-N.md
@@ -246,15 +260,15 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Reverse-an-array.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Check-if-a-string-is-palindrome-or-not.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Fibonacci-Number.md
-            - 1.6 - Basic Hashing:
+            - 1.6. Basic Hashing:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Counting-Frequencies-of-Array-Elements.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Find-the-highest_lowest-frequency-element.md
-          - 2 - Sorting Techiques: 
-            - 2.1 - Sorting-I: 
+          - 2. Sorting Techiques: 
+            - 2.1. Sorting-I: 
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Selection-Sort.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Bubble-Sort.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.1/Insertion-Sort.md
-            - 2.2 - Sorting-II: 
+            - 2.2. Sorting-II: 
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Merge-Sort.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Bubble-Sort.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step02/step2.2/Recursive-Insertion-Sort.md
@@ -262,12 +276,20 @@ nav:
       - CSE Fundamentals:
         - Striver SDE Core Sheet:
           - learning_resources/codepoint/striver_core_sde_sheet_solution/operating_system/OS.md
-  # - Coding Ninjas Series:
-  #   - CN Series:
-  #     - Phase 1:
-  #       - Aptitude:
-  #         - learning_resources/CN_Series/Phase1/Aptitude/Aptitude.md
-  #       - Puzzle:
+  - Coding Ninjas Series:
+    - learning_resources/CN_Series/preface.md
+    - Placement Preparation:
+      - Phase 1:
+        - 1. Aptitude:
+          - 1.1. Logical Reasoning:
+            - Module 1:
+              - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module1/Alphanumeric_Series.md
+              - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module1/Artificial_Language.md
+            # - Module 2:
+            #   - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module2/Deductive_Reasoning.md
+            # - Module 3:
+            #   - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module3/MIrror_Water_Images.md
+  #       - 2. Puzzle:
   #         - learning_resources/CN_Series/Phase1/Aptitude/Aptitude.md
   #     - Phase 2:
   #       - Basic Programming:

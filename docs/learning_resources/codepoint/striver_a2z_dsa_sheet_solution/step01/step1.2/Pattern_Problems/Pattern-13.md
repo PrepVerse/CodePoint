@@ -1,3 +1,7 @@
+---
+icon: material/set-square
+---
+
 # 13. Triangle Digit Pattern
 
 !!! example "Example"

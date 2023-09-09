@@ -1,3 +1,7 @@
+---
+icon: material/numeric-4-circle
+---
+
 ``` mermaid
 graph LR
   A(Start) --> B[Expression];

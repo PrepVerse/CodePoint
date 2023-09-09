@@ -1,3 +1,7 @@
+---
+icon: material/numeric-2-box
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "ReverseNumber.cpp"

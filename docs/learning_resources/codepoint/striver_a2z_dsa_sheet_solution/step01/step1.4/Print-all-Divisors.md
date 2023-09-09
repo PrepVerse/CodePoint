@@ -1,5 +1,10 @@
+---
+icon: material/numeric-6-box
+---
+
+## METHOD-1
 !!! example "Example"
-    === "C++ : METHOD-1"
+    === "C++"
         ???+ tip "print_Divisor.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>
@@ -27,7 +32,10 @@
             36
             All Divisors are: 1 2 3 4 6 9 12 18 36
             ```
-    === "C++ : METHOD-2"
+
+## METHOD-2
+!!! example "Example"
+    === "C++"
         ???+ tip "print_Divisor.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>

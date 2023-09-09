@@ -273,5 +273,5 @@ p {
 
 /* Overflow Texts Truncation */
 .md-nav__link {
-  white-space: nowrap;
+  white-space: normal;
 }

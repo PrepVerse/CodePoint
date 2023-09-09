@@ -1,3 +1,7 @@
+---
+icon: material/numeric-2-circle
+---
+
 <!-- ### Integer Types
 
 | Type Name            | Bytes | Range of Values                             |

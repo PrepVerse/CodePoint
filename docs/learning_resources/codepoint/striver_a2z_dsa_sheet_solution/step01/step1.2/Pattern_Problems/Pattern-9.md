@@ -1,3 +1,7 @@
+---
+icon: material/cards-diamond
+---
+
 # 9. Diamond Star Pattern
 
 !!! example "Example"

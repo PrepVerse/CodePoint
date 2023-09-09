@@ -1,5 +1,10 @@
+---
+icon: material/numeric-1-box
+---
+
+## METHOD-1
 !!! example "Example"
-    === "C++ : METHOD-1"
+    === "C++"
         ???+ tip "countDigits.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>
@@ -26,7 +31,9 @@
             5432
             4
             ```
-    === "C++ : METHOD-2"
+## METHOD-2
+!!! example "Example"
+    === "C++"
         ???+ tip "countDigits.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>

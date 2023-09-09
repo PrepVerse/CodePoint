@@ -1,5 +1,10 @@
+---
+icon: octicons/hash-16
+---
+
+## METHOD-1
 !!! example "Example"
-    === "C++ : METHOD-1"
+    === "C++"
         ???+ tip "count_Frequency.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>
@@ -41,7 +46,10 @@
             2 2
             4 1
             ```
-    === "C++ : METHOD-2"
+
+## METHOD-2
+!!! example "Example"
+    === "C++"
         ???+ tip "count_Frequency.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>

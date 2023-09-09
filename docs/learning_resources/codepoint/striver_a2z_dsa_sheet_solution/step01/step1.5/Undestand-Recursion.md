@@ -1,3 +1,7 @@
+---
+icon: material/numeric-1-box-multiple
+---
+
 Recursion is a fundamental concept in computer science and programming that can be both fascinating and challenging for newcomers. It's a problem-solving technique where a function calls itself to solve a problem in smaller, more manageable steps. While recursion can be powerful, it can also be confusing for those who are new to it. In this blog post, we'll explore the concept of recursion, its benefits, and how to understand and implement it effectively.
 
 ## What is Recursion?

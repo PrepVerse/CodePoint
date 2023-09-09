@@ -1,3 +1,7 @@
+---
+icon: material/numeric-3-box
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "check_Palindrome.cpp"

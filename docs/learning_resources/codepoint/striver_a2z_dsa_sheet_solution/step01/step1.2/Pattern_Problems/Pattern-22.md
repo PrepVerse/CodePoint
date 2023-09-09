@@ -1,3 +1,7 @@
+---
+icon: material/square
+---
+
 # 21. Square Digit Pattern
 
 !!! example "Example"

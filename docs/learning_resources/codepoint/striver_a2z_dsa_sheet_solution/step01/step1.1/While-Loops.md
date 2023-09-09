@@ -1,3 +1,7 @@
+---
+icon: material/numeric-7-circle
+---
+
 # While Loops
 ``` mermaid
 graph LR

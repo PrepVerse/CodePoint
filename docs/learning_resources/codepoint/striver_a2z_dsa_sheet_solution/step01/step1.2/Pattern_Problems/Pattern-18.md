@@ -1,3 +1,7 @@
+---
+icon: material/set-square
+---
+
 # 18. Triangle Character Pattern
 
 !!! example "Example"

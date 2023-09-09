@@ -1,3 +1,7 @@
+---
+icon: material/numeric-8-circle
+---
+
 !!! example
     !!! abstract "Use of functions"
         1. Functions are set of code wich performs somethig for you

@@ -1,3 +1,7 @@
+---
+icon: material/numeric-6-circle
+---
+
 ``` mermaid
 graph LR
 

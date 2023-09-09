@@ -1,5 +1,10 @@
+---
+icon: material/numeric-4-box
+---
+
+## METHOD-1
 !!! example "Example"
-    === "C++ : METHOD-1"
+    === "C++"
         ???+ tip "find_GCD-LCM.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>
@@ -35,7 +40,10 @@
             GCD: 5
             LCM: 10
             ```
-    === "C++ : METHOD-2"
+
+## METHOD-2
+!!! example "Example"
+    === "C++"
         ???+ tip "find_GCD-LCM.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>

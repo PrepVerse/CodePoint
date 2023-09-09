@@ -1,3 +1,7 @@
+---
+icon: material/numeric-6-box-multiple
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "factorialOf_N_Numbers.cpp"

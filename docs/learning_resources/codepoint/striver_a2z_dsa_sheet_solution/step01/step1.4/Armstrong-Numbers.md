@@ -1,3 +1,7 @@
+---
+icon: material/numeric-5-box
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "Armstrong_Num.cpp"

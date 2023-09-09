@@ -1,3 +1,7 @@
+---
+icon: material/numeric-5-box-multiple
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "sumOf_N_Numbers.cpp"

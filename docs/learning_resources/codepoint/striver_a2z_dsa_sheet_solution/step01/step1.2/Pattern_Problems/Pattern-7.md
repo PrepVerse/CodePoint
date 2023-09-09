@@ -1,3 +1,7 @@
+---
+icon: material/triangle
+---
+
 # 7. Triangle Star Pattern
 
 !!! example "Example"

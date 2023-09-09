@@ -1,3 +1,7 @@
+---
+icon: material/set-square
+---
+
 # 2. Triangle Star Pattern
 
 !!! example "Example"

@@ -1,5 +1,10 @@
+---
+icon: material/numeric-7-box
+---
+
+## METHOD-1
 !!! example "Example"
-    === "C++ : METHOD-1"
+    === "C++"
         ???+ tip "check_Prime.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>
@@ -26,7 +31,10 @@
             36
             false
             ```
-    === "C++ : METHOD-2"
+
+## METHOD-2
+!!! example "Example"
+    === "C++"
         ???+ tip "check_Prime.cpp"
             ``` c++ linenums="1"
             #include <bits/stdc++.h>

@@ -1,3 +1,7 @@
+---
+icon: material/square
+---
+
 # 1. Square Star Pattern
 
 !!! example "Example"

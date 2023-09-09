@@ -1,3 +1,7 @@
+---
+icon: material/numeric-5-circle
+---
+
 !!! example
     !!! abstract "Arrays"
         1. **Definition:** An array is a data structure that stores a fixed-size, ordered collection of elements of the same data type. Each element in an array is identified by its index or position.

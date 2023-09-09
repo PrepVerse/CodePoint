@@ -1,4 +1,4 @@
-# 11. Left-Right Triangle Digit Pattern
+# 12. Left-Right Triangle Digit Pattern
 
 !!! example "Example"
     !!! question "Pattern 12"

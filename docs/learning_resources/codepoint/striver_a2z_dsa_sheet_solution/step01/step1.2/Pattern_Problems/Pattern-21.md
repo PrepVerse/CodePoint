@@ -1,3 +1,7 @@
+---
+icon: material/square-outline
+---
+
 # 21. Hollow Square Star Pattern
 
 !!! example "Example"

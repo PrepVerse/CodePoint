@@ -1,3 +1,7 @@
+---
+icon: material/cards-playing-diamond
+---
+
 # 19. Hollow Diamond Star Pattern
 
 !!! example "Example"

@@ -1,3 +1,7 @@
+---
+icon: octicons/triangle-right-24
+---
+
 # 10. Triangle Star Pattern
 
 !!! example "Example"

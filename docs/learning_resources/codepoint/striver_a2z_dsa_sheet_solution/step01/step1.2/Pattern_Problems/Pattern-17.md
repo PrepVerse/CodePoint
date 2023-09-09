@@ -1,3 +1,7 @@
+---
+icon: material/dots-triangle
+---
+
 # 17. Triangle Character Pattern
 
 !!! example "Example"

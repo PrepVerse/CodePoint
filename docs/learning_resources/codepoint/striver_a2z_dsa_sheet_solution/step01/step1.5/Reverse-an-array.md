@@ -1,3 +1,7 @@
+---
+icon: material/numeric-7-box-multiple
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "reverse_Array.cpp"

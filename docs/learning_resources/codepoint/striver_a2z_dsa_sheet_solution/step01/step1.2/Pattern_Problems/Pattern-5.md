@@ -1,3 +1,7 @@
+---
+icon: material/triangle-down
+---
+
 # 5. Reverse Triangle Star Pattern
 
 !!! example "Example"

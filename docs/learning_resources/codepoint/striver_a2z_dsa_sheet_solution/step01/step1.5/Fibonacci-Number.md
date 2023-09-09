@@ -1,3 +1,7 @@
+---
+icon: material/numeric-9-box-multiple
+---
+
 !!! example "Example"
     === "C++"
         ???+ tip "fibonacci.cpp"

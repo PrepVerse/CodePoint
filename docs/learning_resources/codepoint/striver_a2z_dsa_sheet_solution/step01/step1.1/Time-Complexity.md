@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+icon: material/numeric-9-circle
+---
+
 <style>
     #credit {
         text-align: right;

@@ -1,3 +1,7 @@
+---
+icon: material/triangle-down
+---
+
 # 6. Reverse Triangle Digit Pattern
 
 !!! example "Example"
