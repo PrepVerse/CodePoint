@@ -2,7 +2,7 @@
 icon: material/numeric-7-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "reverse_Array.cpp"
             ``` c++ linenums="1"

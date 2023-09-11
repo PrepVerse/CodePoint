@@ -2,7 +2,7 @@
 icon: material/numeric-6-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "factorialOf_N_Numbers.cpp"
             ``` c++ linenums="1"

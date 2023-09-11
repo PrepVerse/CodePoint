@@ -2,7 +2,7 @@
 icon: material/numeric-5-box
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "Armstrong_Num.cpp"
             ``` c++ linenums="1"

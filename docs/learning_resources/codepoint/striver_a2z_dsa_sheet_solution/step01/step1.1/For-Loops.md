@@ -39,7 +39,7 @@ graph LR
 ```
 
 
-!!! example
+!!! example ""
     === "C++"
         !!! tip "Sum of 10 Numbers.cpp"
             ```c++ linenums="1" hl_lines="6-8"

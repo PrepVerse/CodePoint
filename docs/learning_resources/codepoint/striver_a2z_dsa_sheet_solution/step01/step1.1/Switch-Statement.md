@@ -88,7 +88,7 @@ graph LR
 ```
 
 
-!!! example
+!!! example ""
     !!! question "Problem"
         ```cpp
         Take the day number and print the corresponding day

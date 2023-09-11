@@ -2,8 +2,8 @@
 icon: material/numeric-4-box
 ---
 
-## METHOD-1
-!!! example "Example"
+!!! example ""
+    ## Method-1
     === "C++"
         ???+ tip "find_GCD-LCM.cpp"
             ``` c++ linenums="1"
@@ -40,9 +40,7 @@ icon: material/numeric-4-box
             GCD: 5
             LCM: 10
             ```
-
-## METHOD-2
-!!! example "Example"
+    ## Method-2
     === "C++"
         ???+ tip "find_GCD-LCM.cpp"
             ``` c++ linenums="1"

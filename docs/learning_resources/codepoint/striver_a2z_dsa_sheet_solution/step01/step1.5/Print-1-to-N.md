@@ -2,7 +2,7 @@
 icon: material/numeric-3-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "print_1toN.cpp"
             ``` c++ linenums="1"

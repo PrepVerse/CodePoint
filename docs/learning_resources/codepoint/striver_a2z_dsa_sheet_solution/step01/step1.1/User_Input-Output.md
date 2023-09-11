@@ -44,8 +44,9 @@ graph LR
 ```
 
 
-!!! example "C++ Example"
-    === "C++ : INPUT"
+!!! example ""
+    ## Input
+    === "C++"
         !!! abstract "User Input in C++"
             To read input from the user in C++, you can use the `cin` stream. Here's an example of how to read an integer from the user
         !!! tip "Input.cpp"
@@ -65,7 +66,22 @@ graph LR
             10 11
             Value of x: 10 and y: 11
             ```
-    === "C++ : OUTPUT"
+    === "Python"
+        !!! abstract "User Input in Python"
+            To read input from the user in Python, you can use the `input()` function. Here's an example of how to read a integer from the user
+        !!! tip "Input.py"
+            ```py linenums="1" hl_lines="1-2"
+            x, y = int(input()), int(input())
+            print("Value of x:", x, "and y:", y)
+            ```
+        ??? success "Output"
+            ```
+            10 
+            11
+            Value of x: 10 and y: 11
+            ```
+    ## Output
+    === "C++"
         !!! abstract "User Output in C++"
             To display output to the user in C++, you can use the `cout` stream. Here's an example of how to output a message to the user
         !!! tip "Output.cpp"
@@ -84,24 +100,7 @@ graph LR
             Hello,
             My Name is Akash Singh
             ```
-
-
-!!! example "Python Example"
-    === "Python : INPUT"
-        !!! abstract "User Input in Python"
-            To read input from the user in Python, you can use the `input()` function. Here's an example of how to read a integer from the user
-        !!! tip "Input.py"
-            ```py linenums="1" hl_lines="1-2"
-            x, y = int(input()), int(input())
-            print("Value of x:", x, "and y:", y)
-            ```
-        ??? success "Output"
-            ```
-            10 
-            11
-            Value of x: 10 and y: 11
-            ```
-    === "Python : OUTPUT"
+    === "Python"
         !!! abstract "User Output in Python"
             To display output to the user in Python, you can use the `print()` function. Here's an example of how to output a message to the user
         !!! tip "Output.py"

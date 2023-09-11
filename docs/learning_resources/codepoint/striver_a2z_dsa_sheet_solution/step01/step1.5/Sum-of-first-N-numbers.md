@@ -2,7 +2,7 @@
 icon: material/numeric-5-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "sumOf_N_Numbers.cpp"
             ``` c++ linenums="1"

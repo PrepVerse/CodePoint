@@ -2,7 +2,7 @@
 icon: material/numeric-9-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "fibonacci.cpp"
             ``` c++ linenums="1"

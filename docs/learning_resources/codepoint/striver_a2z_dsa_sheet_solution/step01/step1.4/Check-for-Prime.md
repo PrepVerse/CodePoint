@@ -2,8 +2,8 @@
 icon: material/numeric-7-box
 ---
 
-## METHOD-1
-!!! example "Example"
+!!! example ""
+    ## Method-1
     === "C++"
         ???+ tip "check_Prime.cpp"
             ``` c++ linenums="1"
@@ -31,9 +31,7 @@ icon: material/numeric-7-box
             36
             false
             ```
-
-## METHOD-2
-!!! example "Example"
+    ## Method-2
     === "C++"
         ???+ tip "check_Prime.cpp"
             ``` c++ linenums="1"

@@ -2,8 +2,8 @@
 icon: octicons/hash-16
 ---
 
-## METHOD-1
-!!! example "Example"
+!!! example ""
+    ## Method-1
     === "C++"
         ???+ tip "count_Frequency.cpp"
             ``` c++ linenums="1"
@@ -48,9 +48,7 @@ icon: octicons/hash-16
             Heighest Frequency = 3
             Lowest Frequency = 1
             ```
-
-## METHOD-2
-!!! example "Example"
+    ## Method-2
     === "C++"
         ???+ tip "count_Frequency.cpp"
             ``` c++ linenums="1"

@@ -2,8 +2,8 @@
 icon: material/numeric-6-box
 ---
 
-## METHOD-1
-!!! example "Example"
+!!! example ""
+    ## Method-1
     === "C++"
         ???+ tip "print_Divisor.cpp"
             ``` c++ linenums="1"
@@ -32,9 +32,7 @@ icon: material/numeric-6-box
             36
             All Divisors are: 1 2 3 4 6 9 12 18 36
             ```
-
-## METHOD-2
-!!! example "Example"
+    ## Method-2
     === "C++"
         ???+ tip "print_Divisor.cpp"
             ``` c++ linenums="1"

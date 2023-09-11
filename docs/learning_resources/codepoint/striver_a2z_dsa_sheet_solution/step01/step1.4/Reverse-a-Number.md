@@ -2,7 +2,7 @@
 icon: material/numeric-2-box
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "ReverseNumber.cpp"
             ``` c++ linenums="1"

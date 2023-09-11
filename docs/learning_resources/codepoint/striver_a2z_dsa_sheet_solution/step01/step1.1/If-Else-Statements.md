@@ -58,7 +58,8 @@ graph LR
         4.  if age > 57.
             print --> Retirement time.            
         ```
-    === "C++ : METHOD-1"
+    ## Method-1
+    === "C++"
         !!! tip "If_Else.cpp"
             ```cpp linenums="1" hl_lines="8-19"
             #include <bits/stdc++.h>
@@ -88,7 +89,8 @@ graph LR
             22
             You are eligible for job.
             ```
-    === "C++ : METHOD-2"
+    ## Method-2
+    === "C++"
         !!! tip "If_Else.cpp"
             ```cpp linenums="1" hl_lines="8-19"
             #include <bits/stdc++.h>
@@ -118,7 +120,8 @@ graph LR
             22
             You are eligible for job.
             ```
-    === "C++ : METHOD-3"
+    ## Method-3
+    === "C++"
         !!! tip "If_Else.cpp"
             ```cpp linenums="1" hl_lines="8-19"
             #include <bits/stdc++.h>
@@ -148,7 +151,8 @@ graph LR
             22
             You are eligible for job.
             ```
-    === "C++ : METHOD-4"
+    ## Method-4
+    === "C++"
         !!! tip "If_Else.cpp"
             ```cpp linenums="1" hl_lines="8-19"
             #include <bits/stdc++.h>

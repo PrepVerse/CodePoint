@@ -2,7 +2,7 @@
 icon: material/numeric-8-box-multiple
 ---
 
-!!! example "Example"
+!!! example ""
     === "C++"
         ???+ tip "check_Palindrome.cpp"
             ``` c++ linenums="1"

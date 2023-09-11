@@ -38,46 +38,41 @@ icon: material/numeric-2-circle
 | signed char   | 1     | -128 to 127             | -->
 
 
-!!! example "C++ Example"
+!!! example ""
     === "C++"
         !!! tip "Data_Types.cpp"
-            ```cpp linenums="1" hl_lines="5-6 8-9 11-12 14-16 18-20 22-24 28-30 34-36"
+            ```cpp linenums="1"
             #include <bits/stdc++.h>
             using namespace std;
 
             int main() {
-                // int
-                int i = 10;
+                // Integer types
+                int i = 10; // int
+                long l = 1005; // long
+                long long ll = 10000005; // long long
 
-                // long
-                long l = 1005;
+                // Floating-point types
+                float f = 10.5; // float
+                float fi = 10; // float (integer value)
 
-                // long long
-                long long ll = 10000005;
+                double d = 1005.5; // double
+                double di = 1005; // double (integer value)
 
-                // float
-                float f = 10.5;
-                float fi = 10;
-
-                // double
-                double d = 1005.5;
-                double di = 1005;
-
-                // string
+                // String input and output
                 string s1, s2;
                 cin >> s1 >> s2;
                 cout << "Print normal string: " << endl;
                 cout << "s1: " << s1 << ", and s2: " << s2 << endl << endl;
 
-                // getline
+                // Reading a line of text
                 string str;
                 getline(cin, str);
                 cout << "Print getline string: " << endl;
                 cout << "str: " << str;
 
-                // char
-                char ch = 'A';
-                string s = "A";
+                // Character types
+                char ch = 'A'; // char
+                string s = "A"; // string containing a single character
 
                 return 0;
             }
@@ -92,43 +87,36 @@ icon: material/numeric-2-circle
             Print getline string: 
             str: My Name is Akash Singh.
             ```
-
-
-!!! example "Python Example"
     === "Python"
         !!! tip "Data_Types.py"
-            ```py linenums="1" hl_lines="1-2 4-5 7-8 10-12 14-16 18-22 24-27 29-31"
-            # int
-            i = 10;
+            ```py linenums="1"
+            # Integer variables
+            i = 10  # An integer variable i with the value 10
+            l = 1005  # A long integer variable l with the value 1005
+            ll = 10000005  # A long long integer variable ll with the value 10000005
 
-            # long
-            l = 1005;
+            # Floating-point variables
+            f = 10.5  # A float variable f with the value 10.5
+            fi = 10  # Another float variable fi with the value 10 (integer value)
 
-            # long long
-            ll = 10000005;
+            d = 1005.5  # A double variable d with the value 1005.5
+            di = 1005  # Another double variable di with the value 1005 (integer value)
 
-            # float
-            f = 10.5;
-            fi = 10;
-
-            # double
-            d = 1005.5;
-            di = 1005;
-
-            # string
-            s1, s2 = input(), input();
-            print("Print normal string: ");
-            print("s1:", s1, ", and s2:", s2);
+            # String input and output
+            s1 = input()  # Read a string into s1 from user input
+            s2 = input()  # Read another string into s2 from user input
+            print("Print normal string: ")
+            print("s1:", s1, ", and s2:", s2)
             print()
 
-            # getline
-            str = input();
+            # Reading a line of text
+            str = input()  # Read a line of text into the variable str from user input
             print("Print getline string: ")
             print("str:", str)
 
-            # char
-            ch = 'A';
-            s = "A";
+            # Character variables
+            ch = 'A'  # A character variable ch with the value 'A'
+            s = "A"  # A string variable s containing the character 'A'
             ```
         ??? success "Output"
             ```

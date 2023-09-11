@@ -2,7 +2,7 @@
 icon: material/numeric-5-circle
 ---
 
-!!! example
+!!! example ""
     !!! abstract "Arrays"
         1. **Definition:** An array is a data structure that stores a fixed-size, ordered collection of elements of the same data type. Each element in an array is identified by its index or position.
 
@@ -40,7 +40,9 @@ icon: material/numeric-5-circle
             - Comparison: Checking if two strings are equal (e.g., `"abc" == "def"`)
             - Substring: Extracting a portion of a string (e.g., `"Hello".substring(1, 3)` in Java)
 
-    === "C++ : Array _ METHOD-1"
+    ## Array
+    ### Method-1
+    === "C++"
         !!! tip "Array.cpp"
             ```c++ linenums="1" hl_lines="5-9"
             #include<bits/stdc++.h>
@@ -60,7 +62,8 @@ icon: material/numeric-5-circle
             1 2 3 4 5
             15
             ```
-    === "C++ : Array _ METHOD-2"
+    ### Method-2
+    === "C++"
         !!! tip "Array.cpp"
             ```c++ linenums="1" hl_lines="5-9"
             #include<bits/stdc++.h>
@@ -80,7 +83,9 @@ icon: material/numeric-5-circle
             1 2 3 4 5
             15
             ```
-    === "C++ : 2D Array _ METHOD-1"
+    ## 2D Array
+    ### Method-1
+    === "C++"
         !!! tip "Matrix.cpp"
             ```c++ linenums="1" hl_lines="5-9"
             #include<bits/stdc++.h>
@@ -100,7 +105,9 @@ icon: material/numeric-5-circle
             1 2 3 4
             10
             ```
-    === "C++ : String _ METHOD-1"
+    ## String
+    ### Method-1
+    === "C++"
         !!! tip "String.cpp"
             ```c++ linenums="1" hl_lines="5-7"
             #include<bits/stdc++.h>
@@ -117,4 +124,3 @@ icon: material/numeric-5-circle
             ```
             h
             ```
-
