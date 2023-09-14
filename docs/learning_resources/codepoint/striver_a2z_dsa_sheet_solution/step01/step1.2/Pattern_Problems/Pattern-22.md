@@ -2,7 +2,7 @@
 icon: material/square
 ---
 
-# 21. Square Digit Pattern
+# 22. Square Digit Pattern
 
 !!! example "Example"
     !!! question "Pattern 22"
