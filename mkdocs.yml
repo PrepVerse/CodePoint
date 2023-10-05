@@ -68,23 +68,50 @@ theme:
   icon:
     logo: fontawesome/solid/laptop-code
     repo: fontawesome/brands/github
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
 
 # Plugins
 plugins:
-  # - blog:
-  #     blog_dir: blog/posts
-  #     post_date_format: medium
-  #     post_url_date_format: yyyy/MM/dd
-  #     post_url_format: "{date}/{slug}"
-  #     post_readtime_words_per_minute: 265
-  #     post_slugify: !!python/object/apply:pymdownx.slugs.slugify
-  #       kwds:
-  #         case: lower
-  #     post_slugify_separator: "-"
-  #     authors_file: .authors.yml
+  - blog:
+      archive: true
+      archive_name: Archive
+      archive_date_format: yyyy
+      archive_url_date_format: yyyy
+      archive_url_format: "archive/{date}"
+      archive_toc: true
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+      blog_dir: learning_resources/blog
+      blog_toc: true
+      categories: true
+      categories_name: Categories
+      categories_url_format: "category/{slug}"
+      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      categories_slugify_separator: _
+      categories_toc: true
+      post_dir: "{blog}/posts"
+      post_date_format: long
+      post_excerpt: optional
+      post_excerpt_max_authors: 1
+      post_excerpt_max_categories: 5
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_slugify_separator: "-"
+      post_url_date_format: yyyy/MM/dd
+      # post_url_format: "{date}/{slug}"
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 2
+      post_readtime: true
+      post_readtime_words_per_minute: 250
   #     enabled: !ENV [CodePoint, false]
   # - git-authors:
-  #       # show_contribution: true
+  #     show_contribution: true
   #     exclude:
   #       - index.md
   #       - preface.md
@@ -102,7 +129,9 @@ plugins:
   - minify:
       minify_html: true
   - search
-  - tags
+  # - social
+  - tags:
+      tags_file: learning_resources/tags/tags.md
   # - redirects:
   #     redirect_maps:
 
@@ -140,6 +169,10 @@ extra:
       link: https://www.instagram.com/akash.singh3031
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/akashsingh3031
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
 
 extra_css:
   - css/katex.css
@@ -207,7 +240,8 @@ nav:
       - DSA:
         - Striver A2Z DSA Sheet:
           - 1. Learn the basics: 
-            - 1.1. Things to Know: 
+            - 1.1. Things to Know:
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/User_Input-Output.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Data-Types.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/If-Else-Statements.md
@@ -218,6 +252,7 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity.md
             - 1.2. Pattern Problems:
+                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Video-Solution.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
@@ -241,8 +276,10 @@ nav:
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
                 - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
             - 1.3. C++ STL:
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL.md
             - 1.4. Basic Maths:
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Count-Digits.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Reverse-a-Number.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-Palindrome.md
@@ -251,6 +288,7 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Print-all-Divisors.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Check-for-Prime.md
             - 1.5. Basic Recursion:
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Undestand-Recursion.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-Name-N-times.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Print-1-to-N.md
@@ -261,6 +299,7 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Check-if-a-string-is-palindrome-or-not.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Fibonacci-Number.md
             - 1.6. Basic Hashing:
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Counting-Frequencies-of-Array-Elements.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Find-the-highest_lowest-frequency-element.md
           - 2. Sorting Techiques: 
@@ -337,9 +376,6 @@ nav:
   #       - learning_resources/Free_Courses/Love_Babbar_Series/DSA.md
   #     - Apna College Series:
   #       - learning_resources/Free_Courses/Apna_College_Series/DSA.md
-  # - Blog:
-  #   - learning_resources/blog/index.md
-  #   - Python:
-  #     - NumPy:
-  #       - learning_resources/blog/posts/NumPy.md
+  - Blog:
+    - learning_resources/blog/index.md
   - About Me: about/about.md

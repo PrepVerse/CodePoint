@@ -1,9 +1,15 @@
 ---
+authors: [AkashSingh3031]
+categories:
+  - Core Subjects
+comments: true
+date:
+  created: 2023-01-05
+  # updated: 2023-10-05
+tags:
+  - Core Subject
+  - OS
 title: Operating System
-authors: Akash Singh
-author_gh_user: AkashSingh3031
-read_time: 15 min
-publish_date: January 5, 2023
 ---
 
 ??? question "1. What is the main purpose of an operating system? Discuss different types?"
@@ -23,6 +29,8 @@ publish_date: January 5, 2023
             Real-Time OS
         ???+ info "Mobile OS"
             Mobile OS
+
+<!-- more -->
 
 ??? question "2. What is a socket, kernel and monolithic kernel ?"
     !!! abstract "Socket"
