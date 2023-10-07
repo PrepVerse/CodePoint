@@ -55,9 +55,10 @@ icon: material/cards-diamond
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
                 *
                ***  
               *****

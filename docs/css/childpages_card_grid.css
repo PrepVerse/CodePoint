@@ -21,3 +21,15 @@
     /* Add some padding inside the card container */
     padding: 2px 16px;
 }
+
+.repo-card {
+    min-height: 130px;
+}
+
+.portfolio-section {
+    padding-bottom: 1rem;
+}
+
+.md-typeset h1 {
+    margin: 1rem 0 0.75rem;
+}

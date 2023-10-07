@@ -65,9 +65,10 @@ icon: material/square
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
             5 5 5 5 5 5 5 5 5
             5 4 4 4 4 4 4 4 5
             5 4 3 3 3 3 3 4 5

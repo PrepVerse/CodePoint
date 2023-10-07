@@ -134,13 +134,10 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            4
-            Thursday Check
-            ```
-        ??? success "Output"
-            ```
-            8
-            Invalid Check
-            ```
+            /// html | div.result
+            ++'Input'++: 4 <br>
+            ++'Output'++: Thursday Check <br><hr>
+
+            ++'Input'++: 8 <br>
+            ++'Output'++: Invalid Check
+            ///

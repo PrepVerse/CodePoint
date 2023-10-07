@@ -27,11 +27,10 @@ icon: material/numeric-6-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            36
-            All Divisors are: 1 2 3 4 6 9 12 18 36
-            ```
+            /// html | div.result
+            ++'Input'++: 36 <br>
+            ++'Output'++: All Divisors are: 1 2 3 4 6 9 12 18 36
+            ///
     ## Method-2
     === "C++"
         ???+ tip "print_Divisor.cpp"
@@ -59,8 +58,7 @@ icon: material/numeric-6-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            36
-            All Divisors are: 1 36 2 18 3 12 4 9 6
-            ```
+            /// html | div.result
+            ++'Input'++: 36 <br>
+            ++'Output'++: All Divisors are: 1 2 3 4 6 9 12 18 36
+            ///

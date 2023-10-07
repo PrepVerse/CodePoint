@@ -88,18 +88,22 @@
     }
 </style>
 
-
-???+ Danger "Striver Sheet Solution"
+???+ settings "Striver Sheet Solution"
     ??? tip "Striver A2Z DSA Sheet Solution : <code class="green">Code</code>"
         ??? note "<code class="yellow">✔️</code> Step 1: Learn the basics"
             ??? Example "Step 1.1: Things to Know"
-                !!! warning ""
+                !!! new ""
                     <table class="table table-bordered table-striped" border="2">
                         <tbody>
                             <tr>
                                 <th><h2> Action </h2></th>
                                 <th><h2> Problem [Articles, Codes] </h2></th>
                                 <th><h2> Languages </h2></th>
+                            </tr>
+                            <tr>
+                                <td><code class="green">✔️</code></td>
+                                <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td><code class="green">✔️</code></td>
@@ -157,6 +161,11 @@
                                     <th><h2> Action </h2></th>
                                     <th><h2> Problem [Articles, Codes] </h2></th>
                                     <th><h2> Languages </h2></th>
+                                </tr>
+                                <tr>
+                                    <td><code class="green">✔️</code></td>
+                                    <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><code class="green">✔️</code></td>
@@ -281,6 +290,11 @@
                             </tr>
                             <tr>
                                 <td><code class="green">✔️</code></td>
+                                <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><code class="green">✔️</code></td>
                                 <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL/"><b><code class="red">:fontawesome-solid-file-code:</code>C++ STL</b></a></td>
                                 <td><code class="blue">:material-language-cpp:</code></td>
                             </tr>
@@ -294,6 +308,11 @@
                                 <th><h2> Action </h2></th>
                                 <th><h2> Problem [Articles, Codes] </h2></th>
                                 <th><h2> Languages </h2></th>
+                            </tr>
+                            <tr>
+                                <td><code class="green">✔️</code></td>
+                                <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.4/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td><code class="green">✔️</code></td>
@@ -340,6 +359,11 @@
                                 <th><h2> Action </h2></th>
                                 <th><h2> Problem [Articles, Codes] </h2></th>
                                 <th><h2> Languages </h2></th>
+                            </tr>
+                            <tr>
+                                <td><code class="green">✔️</code></td>
+                                <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.5/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td><code class="green">✔️</code></td>
@@ -396,6 +420,11 @@
                                 <th><h2> Action </h2></th>
                                 <th><h2> Problem [Articles, Codes] </h2></th>
                                 <th><h2> Languages </h2></th>
+                            </tr>
+                            <tr>
+                                <td><code class="green">✔️</code></td>
+                                <td><a href="../learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.6/Video-Solution/"><b><code class="red">:simple-youtube:</code>Video Solution</b></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td><code class="green">✔️</code></td>

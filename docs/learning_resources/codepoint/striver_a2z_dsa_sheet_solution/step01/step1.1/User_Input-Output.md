@@ -43,12 +43,11 @@ graph LR
 
 ```
 
-
 !!! example ""
     ## Input
     === "C++"
         !!! abstract "User Input in C++"
-            To read input from the user in C++, you can use the `cin` stream. Here's an example of how to read an integer from the user
+            To read input from the user in C++, you can use the {==++'cin'++==} stream. Here's an example of how to read an integer from the user
         !!! tip "Input.cpp"
             ```cpp linenums="1" hl_lines="5-6"
             #include <bits/stdc++.h>
@@ -57,33 +56,30 @@ graph LR
             int main() {
                 int x, y;
                 cin >> x >> y;
-                cout << "Value of x: " << x << " and y: " << y;
+                cout << "Value of x=" << x << " and y=" << y;
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            10 11
-            Value of x: 10 and y: 11
-            ```
+            /// html | div.result
+            ++'Input'++: 10 11 <br>
+            ++'Output'++: Value of x=10 and y=11
+            ///
     === "Python"
         !!! abstract "User Input in Python"
-            To read input from the user in Python, you can use the `input()` function. Here's an example of how to read a integer from the user
+            To read input from the user in Python, you can use the {==++'input()'++==} function. Here's an example of how to read a integer from the user
         !!! tip "Input.py"
             ```py linenums="1" hl_lines="1-2"
-            x, y = int(input()), int(input())
-            print("Value of x:", x, "and y:", y)
+            x, y = list(map(int, input().split()))
+            print("Value of x=", x, "and y=", y)
             ```
-        ??? success "Output"
-            ```
-            10 
-            11
-            Value of x: 10 and y: 11
-            ```
+            /// html | div.result
+            ++'Input'++: 10 11 <br>
+            ++'Output'++: Value of x=10 and y=11
+            ///
     ## Output
     === "C++"
         !!! abstract "User Output in C++"
-            To display output to the user in C++, you can use the `cout` stream. Here's an example of how to output a message to the user
+            To display output to the user in C++, you can use the {==++'cout'++==} stream. Here's an example of how to output a message to the user
         !!! tip "Output.cpp"
             ```cpp linenums="1" hl_lines="5-6"
             #include <bits/stdc++.h>
@@ -95,21 +91,17 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            Hello,
-            My Name is Akash Singh
-            ```
+            /// html | div.result
+            ++'Output'++: Hello, <br> My Name is Akash Singh
+            ///
     === "Python"
         !!! abstract "User Output in Python"
-            To display output to the user in Python, you can use the `print()` function. Here's an example of how to output a message to the user
+            To display output to the user in Python, you can use the {==++'print()'++==} function. Here's an example of how to output a message to the user
         !!! tip "Output.py"
             ```py linenums="1" hl_lines="1-2"
             print("Hello,")
             print("My Name is", "Akash Singh")
             ```
-        ??? success "Output"
-            ```
-            Hello,
-            My Name is Akash Singh
-            ```
+            /// html | div.result
+            ++'Output'++: Hello, <br> My Name is Akash Singh
+            ///

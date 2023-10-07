@@ -28,10 +28,11 @@ icon: material/numeric-5-box
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
             ``` yaml
-            1634 # (1)!
-            true
+            Input: 1634 # (1)!
+            Output: true
             ```
 
             1.  $1^4 + 6^4 + 3^4 + 4^4 = 1634$
+            ///

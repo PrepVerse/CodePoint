@@ -54,8 +54,7 @@ graph LR
                 cout << sum;
             }
             ```
-        ??? success "Output"
-            ```
-            55
-            ```
+            /// html | div.result
+            ++'Output'++: 55
+            ///
 

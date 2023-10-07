@@ -34,12 +34,10 @@ icon: material/numeric-4-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5 10
-            GCD: 5
-            LCM: 10
-            ```
+            /// html | div.result
+            ++'Input'++: 5 10 <br>
+            ++'Output'++: GCD: 5 <br> LCM: 10
+            ///
     ## Method-2
     === "C++"
         ???+ tip "find_GCD-LCM.cpp"
@@ -68,9 +66,7 @@ icon: material/numeric-4-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5 10
-            GCD: 5
-            LCM: 10
-            ```
+            /// html | div.result
+            ++'Input'++: 5 10 <br>
+            ++'Output'++: GCD: 5 <br> LCM: 10
+            ///

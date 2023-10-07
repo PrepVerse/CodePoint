@@ -26,8 +26,7 @@ icon: material/numeric-2-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5432
-            2345
-            ```
+            /// html | div.result
+            ++'Input'++: 5432 <br>
+            ++'Output'++: 2345
+            ///

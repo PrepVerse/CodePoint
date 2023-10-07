@@ -42,9 +42,10 @@ icon: material/set-square
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
             1 
             0 1 
             1 0 1

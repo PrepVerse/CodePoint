@@ -77,16 +77,15 @@ icon: material/numeric-2-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            Akash Singh
-            Print normal string: 
-            s1: Akash, and s2: Singh
+            /// html | div.result
+            ++'Input'++: Akash Singh <br>
+            ++'Output'++: Print normal string: <br>
+            s1: Akash, and s2: Singh <br>
 
-            My Name is Akash Singh.
-            Print getline string: 
+            ++'Input'++: My Name is Akash Singh. <br>
+            ++'Output'++: Print getline string: <br>
             str: My Name is Akash Singh.
-            ```
+            ///
     === "Python"
         !!! tip "Data_Types.py"
             ```py linenums="1"
@@ -118,14 +117,13 @@ icon: material/numeric-2-circle
             ch = 'A'  # A character variable ch with the value 'A'
             s = "A"  # A string variable s containing the character 'A'
             ```
-        ??? success "Output"
-            ```
-            Akash 
-            Singh
-            Print normal string: 
-            s1: Akash, and s2: Singh
+            /// html | div.result
+            ++'Input'++: Akash <br>
+            Singh <br>
+            ++'Output'++: Print normal string: <br>
+            s1: Akash, and s2: Singh <br>
 
-            My Name is Akash Singh.
-            Print getline string: 
+            ++'Input'++: My Name is Akash Singh. <br>
+            ++'Output'++: Print getline string: <br>
             str: My Name is Akash Singh.
-            ```
+            ///

@@ -27,8 +27,7 @@ icon: material/numeric-3-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            1331
-            true
-            ```
+            /// html | div.result
+            ++'Input'++: 1331 <br>
+            ++'Output'++: true
+            ///

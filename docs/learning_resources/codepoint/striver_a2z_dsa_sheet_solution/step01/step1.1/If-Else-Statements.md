@@ -84,11 +84,10 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            22
-            You are eligible for job.
-            ```
+            /// html | div.result
+            ++'Input'++: 22 <br>
+            ++'Output'++: You are eligible for job.
+            ///
     ## Method-2
     === "C++"
         !!! tip "If_Else.cpp"
@@ -115,11 +114,10 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            22
-            You are eligible for job.
-            ```
+            /// html | div.result
+            ++'Input'++: 22 <br>
+            ++'Output'++: You are eligible for job.
+            ///
     ## Method-3
     === "C++"
         !!! tip "If_Else.cpp"
@@ -146,11 +144,10 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            22
-            You are eligible for job.
-            ```
+            /// html | div.result
+            ++'Input'++: 22 <br>
+            ++'Output'++: You are eligible for job.
+            ///
     ## Method-4
     === "C++"
         !!! tip "If_Else.cpp"
@@ -177,8 +174,7 @@ graph LR
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            22
-            You are eligible for job.
-            ```
+            /// html | div.result
+            ++'Input'++: 22 <br>
+            ++'Output'++: You are eligible for job.
+            ///

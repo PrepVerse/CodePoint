@@ -57,11 +57,10 @@ icon: material/numeric-5-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            1 2 3 4 5
-            15
-            ```
+            /// html | div.result
+            ++'Input'++: 1 2 3 4 <br>
+            ++'Output'++: 10
+            ///
     ### Method-2
     === "C++"
         !!! tip "Array.cpp"
@@ -78,11 +77,10 @@ icon: material/numeric-5-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            1 2 3 4 5
-            15
-            ```
+            /// html | div.result
+            ++'Input'++: 1 2 3 4 5 <br>
+            ++'Output'++: 15
+            ///
     ## 2D Array
     ### Method-1
     === "C++"
@@ -100,11 +98,10 @@ icon: material/numeric-5-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            1 2 3 4
-            10
-            ```
+            /// html | div.result
+            ++'Input'++: 1 2 3 4 <br>
+            ++'Output'++: 10
+            ///
     ## String
     ### Method-1
     === "C++"
@@ -120,7 +117,6 @@ icon: material/numeric-5-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            h
-            ```
+            /// html | div.result
+            ++'Output'++: h
+            ///

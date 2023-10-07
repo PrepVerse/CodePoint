@@ -32,10 +32,9 @@ icon: material/numeric-8-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            Akash Singh
-            ```
+            /// html | div.result
+            ++'Output'++: Akash Singh
+            ///
     ## Void - Parameterised
     === "C++"
         !!! tip "Parameterised_Function.cpp"
@@ -54,11 +53,10 @@ icon: material/numeric-8-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            Akash
-            Hello Akash
-            ```
+            /// html | div.result
+            ++'Input'++: Akash <br>
+            ++'Output'++: Hello Akash
+            ///
     ## Return - Parameterised
     === "C++"
         !!! tip "Return_Function.cpp"
@@ -78,11 +76,10 @@ icon: material/numeric-8-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5 6
-            11
-            ```
+            /// html | div.result
+            ++'Input'++:  5 6 <br>
+            ++'Output'++: 11
+            ///
     ## Pass by Value
     === "C++"
         !!! tip "Pass_by_Value.cpp"
@@ -106,13 +103,10 @@ icon: material/numeric-8-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            10
-            15
-            20
-            10
-            ```
+            /// html | div.result
+            ++'Input'++: 10 <br>
+            ++'Output'++: 15 <br> 20 <br> 10
+            ///
     ## Pass by Refrence
     === "C++"
         !!! tip "Pass_by_Refrence.cpp"
@@ -136,10 +130,7 @@ icon: material/numeric-8-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            10
-            15
-            20
-            20
-            ```
+            /// html | div.result
+            ++'Input'++: 10 <br>
+            ++'Output'++: 15 <br> 20 <br> 20
+            ///

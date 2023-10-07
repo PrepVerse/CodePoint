@@ -21,20 +21,20 @@ hide:
 - 👬 I’m looking to collaborate on <a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/The_Complete-orange?style=plastic" width="140px" height="75px" /></a> <a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=1877f2&logo=facebook&svgfill=white&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=F08804&logo=amazon&svgfill=0F1111&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=6E6E73&logo=apple&svgfill=black&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=ff0000&logo=netflix&svgfill=white&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=308D46&logo=google&svgfill=red&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://readme-components.vercel.app/api?component=logo&fill=ffbb00&logo=microsoft&svgfill=green&text=false" width="50px" height="40px" /></a><a href="https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/Preparation-green?style=plastic" width="120px" height="75px" /></a> Repository.
 - :zap: I’m currently learning Project Management Skills.
 - 🎯 I’m focusing on Data Science.
-- <details open>
-  <summary>☎️ How to reach me :</summary>
-    <table border="3" radius="20">
-      <td><a href="https://wa.me/919794423031" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="45px" /> </a></td>
-      <td><a href="https://t.me/akashsingh3031" target="_blank"> <img align="center" src="https://media.tenor.com/5MqGEnHSQWAAAAAj/join-official-grup.gif" width="35px" /> </a></td>
-      <td><a href="https://www.linkedin.com/in/akashsingh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="45px" /> </a></td>
-      <td><a href="https://www.instagram.com/akash.singh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="45px" /> </a></td>
-      <td><a href="https://www.facebook.com/akashsingh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294010-ec412ef5-e3da-4efa-b1d4-0ab4d4638755.gif" width="45px" /> </a>
-      <td><a href="https://twitter.com/akashsingh3031" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="45px" /> </a></td>
-      <td><a href="https://mail.google.com/mail/u/0/?fs=1&to=akashsingh03031@gmail.com&tf=cm" target="_blank">  <img src="https://media.tenor.com/9_X3DEtd-xoAAAAi/gmail.gif" width="35px"/> </a></td>
-    </table>
+- <details>
+	<summary>☎️ How to reach me :</summary>
+		<table border="3" radius="20">
+			<td><a href="https://wa.me/919794423031" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="45px" /> </a></td>
+			<td><a href="https://t.me/akashsingh3031" target="_blank"> <img align="center" src="https://media.tenor.com/5MqGEnHSQWAAAAAj/join-official-grup.gif" width="35px" /> </a></td>
+			<td><a href="https://www.linkedin.com/in/akashsingh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="45px" /> </a></td>
+			<td><a href="https://www.instagram.com/akash.singh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="45px" /> </a></td>
+			<td><a href="https://www.facebook.com/akashsingh3031/" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294010-ec412ef5-e3da-4efa-b1d4-0ab4d4638755.gif" width="45px" /> </a>
+			<td><a href="https://twitter.com/akashsingh3031" target="_blank"> <img align="center" src="https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif" width="45px" /> </a></td>
+			<td><a href="https://mail.google.com/mail/u/0/?fs=1&to=akashsingh03031@gmail.com&tf=cm" target="_blank">  <img src="https://media.tenor.com/9_X3DEtd-xoAAAAi/gmail.gif" width="35px"/> </a></td>
+		</table>
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/🗃️_Project_Open_for_Contribution-crimson?style=plastic&logoColor=crimson" width="400px" height="40px" /></a></summary>
   <!--📏LINE-->
   
@@ -85,7 +85,7 @@ hide:
 
 <table border="5" align="center">
 	<td valign="top">
-		<details open> 
+		<details> 
 			<summary align="center"><a align="center" href="#" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/😂_Random_Jokes-cyan?style=plastic" width="200px" height="40px" /></a></summary>
 			<p align="center">
 				<img src="https://readme-jokes.vercel.app/api?theme=radical&borderColor=00ffffff" width="450px" />
@@ -93,7 +93,7 @@ hide:
 		</details>
 	</td>
 	<td valign="top">
-		<details open> 
+		<details> 
 			<summary align="center"><a align="center" href="#" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/✍️_Random_Dev_Quote-crimson?style=plastic" width="200px" height="40px" /></a></summary>
 			<p align="center">
 				<img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical" width="450px">
@@ -105,7 +105,7 @@ hide:
 <!--📏LINE-->
 
 
-<details open>
+<details >
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/🧰_My_Tech_Toolbox-blue?style=plastic&logoColor=brown" width="250px" height="40px" /></a></summary>
   <!--📏LINE-->
   
@@ -171,7 +171,7 @@ hide:
   
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/🌐_Social_Networks-orange?style=plastic" width="200px" height="40px" /></a></summary>
   <table border="3" align="center">
     <td align="center"><a href="https://www.youtube.com/@akashsingh3031?sub_confirmation=1"><img src="https://readme-components.vercel.app/api?component=logo&fill=ff0000&logo=youtube&svgfill=white"></a></td>
@@ -190,7 +190,7 @@ hide:
   </table>
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/Coding_Profiles-cyan?style=plastic&logo=code&logoColor=red" width="200px" height="40px" /></a></summary>
   <table border="3" align="center">
     <td align="center"><a href="https://leetcode.com/akashsingh3031"><img src="https://readme-components.vercel.app/api?component=logo&fill=D29613&logo=leetcode&svgfill=black"></a></td>
@@ -213,7 +213,7 @@ hide:
   </table>
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/📺_Achievements-green?style=plastic&logoColor=cyan" width="200px" height="40px" /></a></summary>
   <table border="3" align="center">
     <td align="center"><a href="https://www.youtube.com/watch?v=2Rwfb84tqI8&t=279s" target="_blank"><img align="center" src="https://user-images.githubusercontent.com/60146338/218552527-b5d8ab82-4e5c-4351-bd7e-d4b4835c5a23.png" alt="Gate Math Book Winner (AIR-1)" width="500"/></a></td>
@@ -227,7 +227,7 @@ hide:
 <table border="5" align="center">
 	<td valign="top">
 		<!-- StarDev Ranking Card ❤️ -->
-		<details open> 
+		<details> 
 		  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/-StarDev_Country_Ranking-cyan?style=flat&amp;labelColor=black&amp;logo=stardev&amp;logoColor=cyan" width="250px" height="40px" /></a></summary>
 		  <p align="center">
 		    <a href="https://stardev.io/developers/AkashSingh3031" target="_blank">
@@ -238,7 +238,7 @@ hide:
 	</td>
 	<td valign="top">
 		<!-- Stack Overflow Card ❤️ -->
-		<details open> 
+		<details> 
 		  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/-StackOverflow_Stats_Card-FE7A16?style=flat&amp;labelColor=white&amp;logo=StackOverflow&amp;logoColor=FE7A16" width="250px" height="40px" /></a></summary>
 		  <p align="center">
 		    <a href="https://stackoverflow.com/users/18910829/akashsingh3031" target="_blank">
@@ -253,11 +253,11 @@ hide:
 <p align="center">
   <img src="https://leetcode.com/static/images/LeetCode_Cup.png" width="100px">
 </p>
-<details open> 
-  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/-LeetCode_Stats_Card-orange?style=flat&amp;labelColor=black&amp;logo=leetcode&amp;logoColor=orange" width="250px" height="40px" /></a></summary>
+<details> 
+  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=orange&logo=leetcode&logoColor=black&label=Solved&query=solvedOverTotal&url=https://leetcode-badge.vercel.app/api/users/akashsingh3031" width="250px" height="40px" /></a></summary>
   <p align="center">
 	<a href="https://leetcode.com/akashsingh3031" target="_blank">
-	  <img align="center" src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=orange&logo=leetcode&logoColor=black&label=Solved&query=solvedOverTotal&url=https://leetcode-badge.vercel.app/api/users/akashsingh3031" width="200px" height="25px" /><br>
+	  <!-- <img align="center" src="https://img.shields.io/badge/dynamic/json?style=flat&labelColor=orange&logo=leetcode&logoColor=black&label=Solved&query=solvedOverTotal&url=https://leetcode-badge.vercel.app/api/users/akashsingh3031" width="250px" height="40px" /><br> -->
 	  <table border="3" align="center">
 		<td valign="top">
 			<img src="https://leetcode.card.workers.dev/?username=akashsingh3031&theme=dark&font=source_code_pro&extension=activity&border_radius=20"/>
@@ -272,7 +272,7 @@ hide:
 
 <table border="5" align="center">
 	<td valign="top">
-		<details open>
+		<details>
 		  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/-LeetCode_Badge_List-orange?style=flat&amp;labelColor=black&amp;logo=leetcode&amp;logoColor=orange" width="250px" height="40px" /></a></summary>
 		  <table border="4" align="center">
 		    <td align="center">
@@ -397,7 +397,7 @@ hide:
 		</details>
 	</td>
   	<td valign="top">
-		<details open> 
+		<details> 
 		  <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/Coding_Ninjas_Studio_Badge_List-darkblue?style=plastic&logoColor=black" width="250px" height="40px" /></a></summary>
 		  <table border="4" align="center">
 		    <td align="center">
@@ -544,7 +544,7 @@ hide:
   <img src="https://media.tenor.com/0ENB5HuTH0gAAAAi/trophy-beker.gif"  width="100px" height="100px">
 </p>
 
-<details open>
+<details>
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/🏆_GitHub_Trophies-ff00ff?style=plastic&logoColor=brown" width="250px" height="40px" /></a></summary>
   <!--📏LINE-->
   
@@ -555,7 +555,7 @@ hide:
   </p>
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/Most_used_languages_❤-ff0000?style=plastic&logo=file-code&logoColor=cyan" width="300px" height="40px" /></a></summary>
     <table align="center" border="3">
       <th><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" align="center"> <img width="100%" height="50%" src= "https://github-readme-stats.vercel.app/api/top-langs/?username=AkashSingh3031&layout=pie&langs_count=20&theme=radical&hide_border=true&custom_title=Most%20Used%20Languages"></a></th>
@@ -563,7 +563,7 @@ hide:
     </table>
 </details>
 
-<details open> 
+<details> 
   <summary align="center"><a href="#-" target="_blank"><img align="center" src="https://custom-icon-badges.demolab.com/badge/GitHub_Stats-ff0000?style=plastic&logo=github&logoColor=ff00ff" width="250px" height="40px" /></a></summary>
     <table align="center" border="3">
       <th><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" align="center"><img width="100%" height="100%" src="https://github-readme-stats.vercel.app/api?username=AkashSingh3031&show_icons=true&show=reviews,discussions_started,discussions_answered&show_owner=true&include_all_commits=true&hide_border=true&title_color=ff6e96&theme=radical&custom_title=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%F0%9F%99%8F%20Programmers!"/></a></th>

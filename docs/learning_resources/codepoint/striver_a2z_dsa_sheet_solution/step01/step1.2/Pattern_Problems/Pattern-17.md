@@ -47,9 +47,10 @@ icon: material/dots-triangle
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
                 A
                ABA
               ABCBA

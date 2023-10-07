@@ -26,11 +26,10 @@ icon: material/numeric-7-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            36
-            false
-            ```
+            /// html | div.result
+            ++'Input'++: 36 <br>
+            ++'Output'++: false
+            ///
     ## Method-2
     === "C++"
         ???+ tip "check_Prime.cpp"
@@ -54,8 +53,7 @@ icon: material/numeric-7-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            36
-            false
-            ```
+            /// html | div.result
+            ++'Input'++: 36 <br>
+            ++'Output'++: false
+            ///

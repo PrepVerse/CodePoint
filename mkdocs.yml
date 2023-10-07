@@ -17,6 +17,10 @@ theme:
   name: material
   custom_dir: material/overrides
   language: en
+  favicon: assets/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - announce.dismiss
     - content.action.edit
@@ -24,7 +28,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     # - content.code.select
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
@@ -44,6 +48,13 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+  icon:
+    logo: fontawesome/solid/laptop-code
+    repo: fontawesome/brands/github
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
   palette:
     # Light mode
     - media: '(prefers-color-scheme: light)'
@@ -57,21 +68,12 @@ theme:
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: cyan
-      accent: amber
+      accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: fontawesome/solid/laptop-code
-    repo: fontawesome/brands/github
-    tag:
-      html: fontawesome/brands/html5
-      js: fontawesome/brands/js
-      css:  fontawesome/brands/css3
+  pymdownx:
+    sponsor: "https://github.com/sponsors/AkashSingh3031"
 
 # Plugins
 plugins:
@@ -115,25 +117,28 @@ plugins:
   #     exclude:
   #       - index.md
   #       - preface.md
-  # # - git-committers:
-  # #     repository: PrepVerse/CodePoint
-  # #     branch: master
+  # - git-committers:
+  #     repository: PrepVerse/CodePoint
+  #     branch: master
   # - git-revision-date-localized:
-  #     type: timeago
-  #     # custom_format: "%-d. %B %Y"
-  #     # timezone: Asia
-  #     # locale: en
-  #     fallback_to_build_date: true
+  #     custom_format: "%-d. %B %Y"
+  #     enabled: !ENV [CodePoint, false]
   #     enable_creation_date: true
+  #     fallback_to_build_date: true
+  #     locale: en
+  #     timezone: Asia
+  #     type: timeago
+  # - glightbox
   # - meta
   - minify:
       minify_html: true
-  - search
-  # - social
-  - tags:
-      tags_file: learning_resources/tags/tags.md
   # - redirects:
   #     redirect_maps:
+  - search
+  # - social
+  - swagger-ui-tag
+  - tags:
+      tags_file: learning_resources/tags/tags.md
 
 # Customization
 extra:
@@ -151,7 +156,7 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://prepverse.github.io/#contact" target="_blank" rel="noopener">feedback form</a>.
     provider: google
     property: G-JF4ZWKWVGC
   comments:
@@ -175,14 +180,21 @@ extra:
     CSS: css
 
 extra_css:
-  - css/katex.css
-  - css/custom.css
   - css/childpages_card_grid.css
+  - css/custom.css
+  - css/extra.css
+  - css/katex.css
+  - css/progressbar.css
+  # - css/pymdownx_extras.css
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 extra_javascript:
   - js/feedback.js
   - js/katex.js
+  - js/repo_card.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js
   - js/mathjax.js
@@ -201,9 +213,19 @@ markdown_extensions:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
+      block_tag: 'pre'
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.definition
+  - pymdownx.blocks.details
+  - pymdownx.blocks.html
+  - pymdownx.blocks.tab:
+      alternate_style: True
+      combine_header_slug: True
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
   - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -215,9 +237,13 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: akashsingh3031
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      social_url_shortener: true
+      user: PrepVerse
       repo: CodePoint
   - pymdownx.mark
+  - pymdownx.progressbar
   - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences:
@@ -230,6 +256,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  # - tools.collapse_code:
+  #     expand_text: ''
+  #     collapse_text: ''
 
 nav:
   - Home: 
@@ -252,29 +281,29 @@ nav:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Functions.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.1/Time-Complexity.md
             - 1.2. Pattern Problems:
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Video-Solution.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-4.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-5.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-6.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-7.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-8.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-9.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-10.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-11.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-12.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-13.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-14.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-15.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-16.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-17.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-18.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-19.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-20.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
-                - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Video-Solution.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-1.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-2.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-3.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-4.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-5.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-6.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-7.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-8.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-9.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-10.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-11.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-12.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-13.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-14.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-15.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-16.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-17.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-18.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-19.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-20.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-21.md
+              - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.2/Pattern_Problems/Pattern-22.md
             - 1.3. C++ STL:
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/Video-Solution.md
               - learning_resources/codepoint/striver_a2z_dsa_sheet_solution/step01/step1.3/CPP-STL.md
@@ -327,7 +356,7 @@ nav:
             # - Module 2:
             #   - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module2/Deductive_Reasoning.md
             # - Module 3:
-            #   - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module3/MIrror_Water_Images.md
+            #   - learning_resources/CN_Series/Phase1/Aptitude/Logical_Reasoning/Module3/Mirror_Water_Images.md
   #       - 2. Puzzle:
   #         - learning_resources/CN_Series/Phase1/Aptitude/Aptitude.md
   #     - Phase 2:
@@ -378,4 +407,6 @@ nav:
   #       - learning_resources/Free_Courses/Apna_College_Series/DSA.md
   - Blog:
     - learning_resources/blog/index.md
-  - About Me: about/about.md
+  - About:
+    - about/about.md
+    - about/contributing.md

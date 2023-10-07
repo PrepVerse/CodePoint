@@ -40,9 +40,10 @@ icon: material/triangle-down
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
             ABCDE
             ABCD
             ABC

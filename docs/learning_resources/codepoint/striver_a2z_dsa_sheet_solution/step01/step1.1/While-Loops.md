@@ -107,10 +107,9 @@ icon: material/numeric-7-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            55
-            ```
+            /// html | div.result
+            ++'Output'++: 55
+            ///
     ## Do-While
     === "C++"
         !!! tip "Sum of 10 Numbers.cpp"
@@ -129,8 +128,7 @@ icon: material/numeric-7-circle
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            55
-            ```
+            /// html | div.result
+            ++'Output'++: 55
+            ///
 

@@ -1,20 +1,28 @@
 {% extends "base.html" %} 
 
 {% block announce %} 
-    For updates follow <strong>@akashsingh3031</strong> on
-    <a rel="me" href="https://www.linkedin.com/in/akashsingh3031">
+    For updates follow <strong>@AkashSingh3031</strong> on
+    <a rel="me" href="https://www.linkedin.com/in/akashsingh3031" target="_blank">
     <span class="twemoji linkedin">
         {% include ".icons/fontawesome/brands/linkedin.svg" %}
     </span>
     <strong>LinkedIn</strong>
     </a>
     and
-    <a href="https://github.com/AkashSingh3031">
+    <a href="https://github.com/AkashSingh3031" target="_blank">
     <span class="twemoji github">
         {% include ".icons/fontawesome/brands/github.svg" %}
     </span>
     <strong>GitHub</strong>
     </a>
+    <br>
+    <!-- <a href="{{ 'about/contributing/#become-a-sponsor' | url }}">Sponsorship</a> -->
+    <a href="{{ 'https://github.com/sponsors/AkashSingh3031' | url }}" target="_blank">Sponsorship</a>
+    is now available!
+    <span class="twemoji heart">
+      {% set icon = "octicons/heart-fill-16" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </span>
 {% endblock %}
 
 <!-- Custom Head -->

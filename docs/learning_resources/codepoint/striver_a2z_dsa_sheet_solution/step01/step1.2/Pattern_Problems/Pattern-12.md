@@ -41,9 +41,10 @@
                 return 0;
             }
             ```
-        ??? success "Output"
+            /// html | div.result
+            ++'Input'++: 5 <br>
+            ++'Output'++:
             ```
-            5
             1                 1
             1 2             2 1
             1 2 3         3 2 1

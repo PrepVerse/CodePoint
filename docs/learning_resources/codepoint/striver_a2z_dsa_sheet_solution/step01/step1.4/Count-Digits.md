@@ -26,11 +26,10 @@ icon: material/numeric-1-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5432
-            4
-            ```
+            /// html | div.result
+            ++'Input'++: 5432 <br>
+            ++'Output'++: 4
+            ///
     ## Method-2
     === "C++"
         ???+ tip "countDigits.cpp"
@@ -50,8 +49,7 @@ icon: material/numeric-1-box
                 return 0;
             }
             ```
-        ??? success "Output"
-            ```
-            5432
-            4
-            ```
+            /// html | div.result
+            ++'Input'++: 5432 <br>
+            ++'Output'++: 4
+            ///
