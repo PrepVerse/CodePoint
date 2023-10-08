@@ -1,4 +1,4 @@
-???+ success "Coding Ninjas Series (Placement Preparation)"
+???+ new "Coding Ninjas Series (Placement Preparation)"
     ??? tip "Phase 1"
         ??? abstract "1. Aptitude"
             ??? Example "1.1. Logical Reasoning"

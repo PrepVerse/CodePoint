@@ -96,6 +96,10 @@ plugins:
           case: lower
       categories_slugify_separator: _
       categories_toc: true
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      pagination_if_single_page: true
+      pagination_per_page: 5
+      pagination_url_format: "page/{page}"
       post_dir: "{blog}/posts"
       post_date_format: long
       post_excerpt: optional
@@ -112,22 +116,21 @@ plugins:
       post_readtime: true
       post_readtime_words_per_minute: 250
   #     enabled: !ENV [CodePoint, false]
-  # - git-authors:
-  #     show_contribution: true
-  #     exclude:
-  #       - index.md
-  #       - preface.md
-  # - git-committers:
-  #     repository: PrepVerse/CodePoint
-  #     branch: master
-  # - git-revision-date-localized:
-  #     custom_format: "%-d. %B %Y"
-  #     enabled: !ENV [CodePoint, false]
-  #     enable_creation_date: true
-  #     fallback_to_build_date: true
-  #     locale: en
-  #     timezone: Asia
-  #     type: timeago
+  - git-authors:
+      show_contribution: true
+      exclude:
+        - index.md
+  - git-committers:
+      repository: PrepVerse/CodePoint
+      branch: master
+  - git-revision-date-localized:
+      # custom_format: "%-d. %B %Y"
+      # enabled: !ENV [CodePoint, false]
+      enable_creation_date: true
+      fallback_to_build_date: true
+      # locale: en
+      # timezone: Asia
+      type: timeago
   # - glightbox
   # - meta
   - minify:
@@ -236,7 +239,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
-      repo_url_shorthand: true
       repo_url_shorthand: true
       social_url_shorthand: true
       social_url_shortener: true
