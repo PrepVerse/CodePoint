@@ -116,23 +116,23 @@ plugins:
       post_readtime: true
       post_readtime_words_per_minute: 250
   #     enabled: !ENV [CodePoint, false]
-  - git-authors:
-      show_contribution: true
-      exclude:
-        - index.md
+  # - git-authors:
+  #     show_contribution: true
+  #     exclude:
+  #       - index.md
   # - git-committers:
   #     repository: PrepVerse/CodePoint
   #     branch: master
-  - git-revision-date-localized:
-      # custom_format: "%d. %B %Y"
-      # enabled: !ENV [CodePoint, false]
-      enable_creation_date: true
-      fallback_to_build_date: false
-      locale: en
-      # timezone: Asia
-      type: timeago
-      exclude:
-          - index.md
+  # - git-revision-date-localized:
+  #     # custom_format: "%d. %B %Y"
+  #     # enabled: !ENV [CodePoint, false]
+  #     # enable_creation_date: true
+  #     # fallback_to_build_date: true
+  #     # locale: en
+  #     # timezone: Asia
+  #     # type: timeago
+  #     # exclude:
+  #     #     - index.md
   # - glightbox
   # - meta
   - minify:
