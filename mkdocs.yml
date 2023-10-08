@@ -120,17 +120,19 @@ plugins:
       show_contribution: true
       exclude:
         - index.md
-  - git-committers:
-      repository: PrepVerse/CodePoint
-      branch: master
+  # - git-committers:
+  #     repository: PrepVerse/CodePoint
+  #     branch: master
   - git-revision-date-localized:
-      # custom_format: "%-d. %B %Y"
+      # custom_format: "%d. %B %Y"
       # enabled: !ENV [CodePoint, false]
       enable_creation_date: true
-      fallback_to_build_date: true
-      # locale: en
+      fallback_to_build_date: false
+      locale: en
       # timezone: Asia
       type: timeago
+      exclude:
+          - index.md
   # - glightbox
   # - meta
   - minify:
