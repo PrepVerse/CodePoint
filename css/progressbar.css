@@ -1,0 +1,140 @@
+/* Progress Bars */
+.md-typeset 
+ 
+.progress-label {
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+   
+  .progress-bar {
+    height: 1.2rem;
+    float: left;
+    background-color: #2979ff;
+  }
+   
+ .candystripe-animate .progress-bar {
+    animation: animate-stripes 3s linear infinite;
+ }
+ 
+  .progress {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 1.2rem;
+    background-color: #eeeeee;
+    position: relative;
+  }
+   
+  .progress.thin {
+    margin-top: 0.9rem;
+    height: 0.4rem;
+  }
+   
+  .progress.thin .progress-label {
+    margin-top: -0.4rem;
+  }
+   
+  .progress.thin .progress-bar {
+    height: 0.4rem;
+  }
+   
+  .progress.candystripe .progress-bar {
+    background-image: linear-gradient(135deg, var(--md-progress-stripe) 27%, transparent 27%, transparent 52%, var(--md-progress-stripe) 52%, var(--md-progress-stripe) 77%, transparent 77%, transparent);
+    background-size: px2rem(40px) px2rem(40px);
+ }
+ 
+ .progress.static.lightcyan .progress-bar {
+    background-color:hsl(187deg 91% 47%);
+  }
+  
+  .progress.static.blue .progress-bar {
+    background-color:#2979ff;
+  }
+ 
+  .progress.static.verydarkcyan .progress-bar {
+    background-color:hsl(187deg 39% 22%);
+  }
+ 
+  .progress.static.darkcyan .progress-bar {
+    background-color:darkcyan;
+  }
+ 
+  .progress.static.blueviolet .progress-bar {
+    background-color:blueviolet;
+  }
+ 
+  .progress.static.bisque .progress-bar {
+    background-color:bisque;
+  }
+ 
+  .progress.static.darkgreen .progress-bar {
+    background-color:darkgreen;
+  }
+ 
+  .progress.static.green .progress-bar {
+    background-color:green;
+  }
+ 
+  .progress.static.orange .progress-bar {
+    background-color:orange;
+  }
+ 
+  .progress.static.orangered .progress-bar {
+    background-color:orangered;
+  }
+ 
+  .progress.static.olivedrab .progress-bar {
+    background-color:olivedrab;
+  }
+ 
+  .progress.static.red .progress-bar {
+    background-color:red;
+  }
+ 
+   
+  .progress.static.gray .progress-bar {
+    background-color:gray;
+  }
+ 
+  .progress.static.grey .progress-bar {
+    background-color: hsl(0deg 5% 89%);
+  }
+   
+  .progress-100plus .progress-bar {
+    background-color: #00e676;
+  }
+   
+  .progress-80plus .progress-bar {
+    background-color: #fbc02d;
+  }
+   
+  .progress-60plus .progress-bar {
+    background-color: #ff9100;
+  }
+   
+  .progress-40plus .progress-bar {
+    background-color: #ff5252;
+  }
+   
+  .progress-20plus .progress-bar {
+    background-color: #ff1744;
+  }
+   
+  .progress-0plus .progress-bar {
+    background-color: #f50057;
+  }
+ 
+  @keyframes animate-stripes {
+    0% {
+        background-position: 0 0;
+   }
+    100% {
+        background-position: px2rem(120px) 0;
+   }
+}
